@@ -1,0 +1,10 @@
+* source BANDPASS_DESIGN
+E_U1         N00292 0 VALUE {LIMIT(V(N00267,N00342)*1E6,-15V,+15V)}
+R_R1         N00275 N00271  7.96k TC=0,0 
+R_R2         N00271 N00292  2.65k TC=0,0 
+R_R3         0 N00267  15.92k TC=0,0 
+R_R4         N00292 N00342  50k TC=0,0 
+R_R5         N00342 0  11.2k TC=0,0 
+C_C1         N00271 N00267  20n  TC=0,0 
+C_C2         0 N00267  10n  TC=0,0 
+V_V1         N00275 0 DC 0Vdc AC 5Vac 

@@ -1,0 +1,312 @@
+EESchema Schematic File Version 4
+LIBS:EMI_sensor_control_Rev1.0-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7400 7500 0    50   ~ 0
+EMI Conductivity Meter Control Ciruit
+Text Notes 10600 7650 0    50   ~ 0
+1.0\n
+$Comp
+L Device:Antenna_Loop AE?
+U 1 1 5D282925
+P 5250 1700
+F 0 "AE?" H 5480 1714 50  0000 L CNN
+F 1 "Antenna_Loop Tx" H 5480 1623 50  0000 L CNN
+F 2 "" H 5250 1700 50  0001 C CNN
+F 3 "~" H 5250 1700 50  0001 C CNN
+	1    5250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Arrays:DMHC3025LSD-13 Q?
+U 1 1 5D27916E
+P 6050 2750
+F 0 "Q?" H 6278 2647 60  0000 L CNN
+F 1 "DMHC3025LSD-13" H 6278 2753 60  0000 L CNN
+F 2 "digikey-footprints:SOIC-8_W3.9mm" V 6250 2950 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/DMHC3025LSD.pdf" H 6250 3050 60  0001 L CNN
+F 4 "DMHC3025LSD-13DICT-ND" H 6250 3150 60  0001 L CNN "Digi-Key_PN"
+F 5 "DMHC3025LSD-13" H 6250 3250 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 6250 3350 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Arrays" H 6250 3450 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/DMHC3025LSD.pdf" H 6250 3550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/DMHC3025LSD-13/DMHC3025LSD-13DICT-ND/3677986" H 6250 3650 60  0001 L CNN "DK_Detail_Page"
+F 10 "MOSFET 2N/2P-CH 30V 8SO" H 6250 3750 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 6250 3850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6250 3950 60  0001 L CNN "Status"
+	1    6050 2750
+	1    0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:BSR14 Q?
+U 1 1 5D281AD2
+P 3500 2850
+F 0 "Q?" H 3666 2896 50  0000 L CNN
+F 1 "BSR14" H 3666 2805 50  0000 L CNN
+F 2 "" H 3275 3300 50  0001 C CNN
+F 3 "" H 3275 3300 50  0001 C CNN
+	1    3500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BSR14 Q?
+U 1 1 5D281E35
+P 3850 3850
+F 0 "Q?" H 4016 3896 50  0000 L CNN
+F 1 "BSR14" H 4016 3805 50  0000 L CNN
+F 2 "" H 3625 4300 50  0001 C CNN
+F 3 "" H 3625 4300 50  0001 C CNN
+	1    3850 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1900 5350 2450
+Wire Wire Line
+	5350 2450 5650 2450
+Wire Wire Line
+	5650 2550 5250 2550
+Wire Wire Line
+	5250 2550 5250 1900
+$Comp
+L Device:R R?
+U 1 1 5D28AF49
+P 3800 2550
+F 0 "R?" V 3593 2550 50  0000 C CNN
+F 1 "R 1k" V 3684 2550 50  0000 C CNN
+F 2 "" V 3730 2550 50  0001 C CNN
+F 3 "~" H 3800 2550 50  0001 C CNN
+	1    3800 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D28B897
+P 4150 2350
+F 0 "R?" H 4220 2396 50  0000 L CNN
+F 1 "R 4.7k" H 4220 2305 50  0000 L CNN
+F 2 "" V 4080 2350 50  0001 C CNN
+F 3 "~" H 4150 2350 50  0001 C CNN
+	1    4150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D28BC79
+P 4150 3550
+F 0 "R?" V 3943 3550 50  0000 C CNN
+F 1 "R 1k" V 4034 3550 50  0000 C CNN
+F 2 "" V 4080 3550 50  0001 C CNN
+F 3 "~" H 4150 3550 50  0001 C CNN
+	1    4150 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D28C3F3
+P 4500 3350
+F 0 "R?" H 4570 3396 50  0000 L CNN
+F 1 "R 4.7k" H 4570 3305 50  0000 L CNN
+F 2 "" V 4430 3350 50  0001 C CNN
+F 3 "~" H 4500 3350 50  0001 C CNN
+	1    4500 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2550 3600 2550
+Wire Wire Line
+	3600 2550 3600 2650
+Wire Wire Line
+	3950 2550 4150 2550
+Wire Wire Line
+	4150 2550 4150 2500
+Wire Wire Line
+	5650 2650 4150 2650
+Wire Wire Line
+	4150 2650 4150 2550
+Connection ~ 4150 2550
+Wire Wire Line
+	3950 3650 3950 3550
+Wire Wire Line
+	3950 3550 4000 3550
+Wire Wire Line
+	4300 3550 4500 3550
+Wire Wire Line
+	4500 3550 4500 3500
+Wire Wire Line
+	4500 3550 5250 3550
+Wire Wire Line
+	5250 3550 5250 2750
+Wire Wire Line
+	5250 2750 5650 2750
+Connection ~ 4500 3550
+Wire Wire Line
+	5600 2950 5650 2950
+$Comp
+L power:+BATT #PWR?
+U 1 1 5D2912BB
+P 4150 2000
+F 0 "#PWR?" H 4150 1850 50  0001 C CNN
+F 1 "+BATT" H 4165 2173 50  0000 C CNN
+F 2 "" H 4150 2000 50  0001 C CNN
+F 3 "" H 4150 2000 50  0001 C CNN
+	1    4150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5D2916C1
+P 4500 3000
+F 0 "#PWR?" H 4500 2850 50  0001 C CNN
+F 1 "+BATT" H 4515 3173 50  0000 C CNN
+F 2 "" H 4500 3000 50  0001 C CNN
+F 3 "" H 4500 3000 50  0001 C CNN
+	1    4500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5D291B91
+P 6050 3350
+F 0 "#PWR?" H 6050 3200 50  0001 C CNN
+F 1 "+BATT" H 6065 3523 50  0000 C CNN
+F 2 "" H 6050 3350 50  0001 C CNN
+F 3 "" H 6050 3350 50  0001 C CNN
+	1    6050 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4150 2000 4150 2200
+Wire Wire Line
+	4500 3000 4500 3200
+Wire Wire Line
+	6050 3150 6050 3350
+$Comp
+L power:GND #PWR?
+U 1 1 5D292A28
+P 3600 3250
+F 0 "#PWR?" H 3600 3000 50  0001 C CNN
+F 1 "GND" H 3605 3077 50  0000 C CNN
+F 2 "" H 3600 3250 50  0001 C CNN
+F 3 "" H 3600 3250 50  0001 C CNN
+	1    3600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D293605
+P 6400 2250
+F 0 "#PWR?" H 6400 2000 50  0001 C CNN
+F 1 "GND" H 6405 2077 50  0000 C CNN
+F 2 "" H 6400 2250 50  0001 C CNN
+F 3 "" H 6400 2250 50  0001 C CNN
+	1    6400 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2250 6150 2150
+Wire Wire Line
+	6150 2150 6400 2150
+Wire Wire Line
+	6400 2150 6400 2250
+$Comp
+L power:GND #PWR?
+U 1 1 5D2943BE
+P 3950 4250
+F 0 "#PWR?" H 3950 4000 50  0001 C CNN
+F 1 "GND" H 3955 4077 50  0000 C CNN
+F 2 "" H 3950 4250 50  0001 C CNN
+F 3 "" H 3950 4250 50  0001 C CNN
+	1    3950 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4250 3950 4050
+$Comp
+L Device:R R?
+U 1 1 5D294D0F
+P 2950 2850
+F 0 "R?" V 2743 2850 50  0000 C CNN
+F 1 "R 1k" V 2834 2850 50  0000 C CNN
+F 2 "" V 2880 2850 50  0001 C CNN
+F 3 "~" H 2950 2850 50  0001 C CNN
+	1    2950 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D295242
+P 3300 3850
+F 0 "R?" V 3093 3850 50  0000 C CNN
+F 1 "R 1k" V 3184 3850 50  0000 C CNN
+F 2 "" V 3230 3850 50  0001 C CNN
+F 3 "~" H 3300 3850 50  0001 C CNN
+	1    3300 3850
+	0    1    1    0   
+$EndComp
+Text GLabel 2550 2850 0    50   Input ~ 0
+TxC1
+Text GLabel 2900 3850 0    50   Input ~ 0
+TxC2
+Wire Wire Line
+	2550 2850 2800 2850
+Wire Wire Line
+	3100 2850 3300 2850
+Wire Wire Line
+	2900 3850 3150 3850
+Wire Wire Line
+	3450 3850 3650 3850
+Wire Wire Line
+	5600 4050 5600 4300
+Wire Wire Line
+	5250 4050 5250 4300
+Text GLabel 5250 4300 3    50   Input ~ 0
+TxC4
+Text GLabel 5600 4300 3    50   Input ~ 0
+TxC3
+$Comp
+L Device:R R?
+U 1 1 5D28FF22
+P 5600 3900
+F 0 "R?" H 5670 3946 50  0000 L CNN
+F 1 "R 1k" H 5670 3855 50  0000 L CNN
+F 2 "" V 5530 3900 50  0001 C CNN
+F 3 "~" H 5600 3900 50  0001 C CNN
+	1    5600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D28FACE
+P 5250 3900
+F 0 "R?" H 5320 3946 50  0000 L CNN
+F 1 "R 1k" H 5320 3855 50  0000 L CNN
+F 2 "" V 5180 3900 50  0001 C CNN
+F 3 "~" H 5250 3900 50  0001 C CNN
+	1    5250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2850 5350 3650
+Wire Wire Line
+	5350 3650 5250 3650
+Wire Wire Line
+	5250 3650 5250 3750
+Wire Wire Line
+	5350 2850 5650 2850
+Wire Wire Line
+	5600 2950 5600 3750
+Wire Wire Line
+	3600 3050 3600 3250
+$EndSCHEMATC
