@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# DMHC3025LSD-13-dk_Transistors-FETs-MOSFETs-Arrays
+#
+DEF DMHC3025LSD-13-dk_Transistors-FETs-MOSFETs-Arrays Q 0 1 Y Y 1 F N
+F0 "Q" -300 400 60 H V C CNN
+F1 "DMHC3025LSD-13-dk_Transistors-FETs-MOSFETs-Arrays" 300 -400 60 V V L CNN
+F2 "digikey-footprints:SOIC-8_W3.9mm" 200 200 60 V I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/DMHC3025LSD.pdf" 200 300 60 H I L CNN
+F4 "DMHC3025LSD-13DICT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "DMHC3025LSD-13" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - FETs, MOSFETs - Arrays" 200 700 60 H I L CNN "Family"
+F8 "https://www.diodes.com/assets/Datasheets/DMHC3025LSD.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/diodes-incorporated/DMHC3025LSD-13/DMHC3025LSD-13DICT-ND/3677986" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET 2N/2P-CH 30V 8SO" 200 1000 60 H I L CNN "Description"
+F11 "Diodes Incorporated" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -300 300 200 -400 0 1 0 f
+X P1S/P2S 7 0 400 100 D 50 50 1 0 W
+X P1G~ 8 -400 -100 100 R 50 50 1 0 I
+X N1G 1 -400 200 100 R 50 50 1 1 I
+X N1D/P1D 2 -400 -200 100 R 50 50 1 1 P
+X N1S/N2S 3 100 -500 100 U 50 50 1 1 W
+X N2G 4 -400 100 100 R 50 50 1 1 I
+X P2G 5 -400 0 100 R 50 50 1 1 I
+X N2D/P2D 6 -400 -300 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

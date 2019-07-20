@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -34,7 +34,7 @@ $EndSheet
 $Sheet
 S 12050 1250 1700 950 
 U 5D2792E3
-F0 "Receiver" 50
+F0 "Receiver Amp and Filter" 50
 F1 "file5D2792E2.sch" 50
 $EndSheet
 $Sheet
@@ -42,5 +42,11 @@ S 12050 2450 1700 900
 U 5D27CADF
 F0 "Power" 50
 F1 "file5D27CADE.sch" 50
+$EndSheet
+$Sheet
+S 12050 3650 1700 950 
+U 5D3E2E6F
+F0 "ADC" 50
+F1 "file5D3E2E6E.sch" 50
 $EndSheet
 $EndSCHEMATC
