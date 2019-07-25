@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name EMI_sensor_control_Rev1.0-rescue)(type Legacy)(uri ${KIPRJMOD}/EMI_sensor_control_Rev1.0-rescue.lib)(options "")(descr ""))
+  (lib (name ECS-3961-400-AU-TR)(type Legacy)(uri "C:/Users/97jsm/Documents/GitHub/EMI-sensor/Building sensor/Designs/KiCAD/ECS-3961-400-AU-TR.lib")(options "")(descr ""))
 )

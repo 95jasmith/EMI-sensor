@@ -1,0 +1,378 @@
+EESchema Schematic File Version 4
+LIBS:EMI_sensor_control_Rev1.0-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2019-07-24_19-23-14:ICE40LP8K-CM81 U?
+U 1 1 5D3A13E8
+P 3200 1450
+F 0 "U?" H 5525 1787 60  0000 C CNN
+F 1 "ICE40LP8K-CM81" H 5525 1681 60  0000 C CNN
+F 2 "UCBGA81" H 5000 1690 60  0001 C CNN
+F 3 "" H 4250 -1350 60  0000 C CNN
+	1    3200 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4950 7100 4950
+Wire Wire Line
+	6800 4450 7100 4450
+Wire Wire Line
+	7100 4450 7100 4750
+Connection ~ 7100 4950
+Wire Wire Line
+	7100 4950 7350 4950
+Wire Wire Line
+	6800 4750 7100 4750
+Connection ~ 7100 4750
+Wire Wire Line
+	7100 4750 7100 4850
+Wire Wire Line
+	6800 4850 7100 4850
+Connection ~ 7100 4850
+Wire Wire Line
+	7100 4850 7100 4950
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D48A016
+P 7200 2550
+F 0 "#PWR?" H 7200 2400 50  0001 C CNN
+F 1 "+3.3V" V 7215 2678 50  0000 L CNN
+F 2 "" H 7200 2550 50  0001 C CNN
+F 3 "" H 7200 2550 50  0001 C CNN
+	1    7200 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3A824C
+P 7350 4950
+F 0 "#PWR?" H 7350 4700 50  0001 C CNN
+F 1 "GND" H 7355 4777 50  0000 C CNN
+F 2 "" H 7350 4950 50  0001 C CNN
+F 3 "" H 7350 4950 50  0001 C CNN
+	1    7350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5D48B961
+P 7350 5450
+F 0 "#PWR?" H 7350 5300 50  0001 C CNN
+F 1 "+1V2" V 7365 5578 50  0000 L CNN
+F 2 "" H 7350 5450 50  0001 C CNN
+F 3 "" H 7350 5450 50  0001 C CNN
+	1    7350 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 5450 7100 5450
+Wire Wire Line
+	7100 5450 7100 5150
+Wire Wire Line
+	7100 5150 6800 5150
+Connection ~ 7100 5450
+Wire Wire Line
+	7100 5450 7350 5450
+Wire Wire Line
+	3950 1850 4250 1850
+Text GLabel 7200 2750 2    50   Input ~ 0
+FPGA_Config
+Text GLabel 7200 4650 2    50   Input ~ 0
+FPGA_SS
+Wire Wire Line
+	7200 4650 6800 4650
+Wire Wire Line
+	6800 2750 7200 2750
+Wire Wire Line
+	6800 2550 7200 2550
+Text GLabel 7200 2650 2    50   Input ~ 0
+FPGA_MOSI
+Wire Wire Line
+	7200 2650 6800 2650
+Text GLabel 7200 3750 2    50   Input ~ 0
+FPGA_MISO
+Wire Wire Line
+	7200 3750 6800 3750
+Text GLabel 7200 3650 2    50   Input ~ 0
+FPGA_CLK
+Wire Wire Line
+	6800 3650 7200 3650
+Text GLabel 7200 5750 2    50   Input ~ 0
+FPGA_CDONE
+Wire Wire Line
+	7200 5750 7000 5750
+$Comp
+L Device:R R?
+U 1 1 5D4938FC
+P 8400 1650
+F 0 "R?" V 8193 1650 50  0000 C CNN
+F 1 "R 100" V 8284 1650 50  0000 C CNN
+F 2 "" V 8330 1650 50  0001 C CNN
+F 3 "~" H 8400 1650 50  0001 C CNN
+	1    8400 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D49468F
+P 8100 1850
+F 0 "C?" H 8215 1896 50  0000 L CNN
+F 1 "C 10u" H 8215 1805 50  0000 L CNN
+F 2 "" H 8138 1700 50  0001 C CNN
+F 3 "~" H 8100 1850 50  0001 C CNN
+	1    8100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D4949B4
+P 7650 1850
+F 0 "C?" H 7765 1896 50  0000 L CNN
+F 1 "C 10u" H 7765 1805 50  0000 L CNN
+F 2 "" H 7688 1700 50  0001 C CNN
+F 3 "~" H 7650 1850 50  0001 C CNN
+	1    7650 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1650 8100 1650
+Wire Wire Line
+	8100 1650 8100 1700
+Wire Wire Line
+	7650 1650 7650 1700
+Wire Wire Line
+	6800 1650 7650 1650
+Connection ~ 7650 1650
+Wire Wire Line
+	7650 2050 7650 2000
+Wire Wire Line
+	7650 2050 7450 2050
+Wire Wire Line
+	7450 2050 7450 1750
+Wire Wire Line
+	7450 1750 6800 1750
+Connection ~ 7650 2050
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5D49B6CD
+P 8750 1650
+F 0 "#PWR?" H 8750 1500 50  0001 C CNN
+F 1 "+1V2" V 8765 1778 50  0000 L CNN
+F 2 "" H 8750 1650 50  0001 C CNN
+F 3 "" H 8750 1650 50  0001 C CNN
+	1    8750 1650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 1650 8550 1650
+Connection ~ 8100 1650
+Wire Wire Line
+	7650 1650 8100 1650
+Wire Wire Line
+	8100 2050 8100 2000
+Wire Wire Line
+	7650 2050 8100 2050
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5D49EA19
+P 3700 4750
+F 0 "#PWR?" H 3700 4600 50  0001 C CNN
+F 1 "+1V2" V 3715 4878 50  0000 L CNN
+F 2 "" H 3700 4750 50  0001 C CNN
+F 3 "" H 3700 4750 50  0001 C CNN
+	1    3700 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 4750 4250 4750
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5D4A038B
+P 3950 1850
+F 0 "#PWR?" H 3950 1700 50  0001 C CNN
+F 1 "+2V5" V 3950 2000 50  0000 L CNN
+F 2 "" H 3950 1850 50  0001 C CNN
+F 3 "" H 3950 1850 50  0001 C CNN
+	1    3950 1850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3950 1750 0    50   Input ~ 0
+DRDY
+Text GLabel 3950 3750 0    50   Input ~ 0
+SCO
+Text GLabel 3950 1550 0    50   Input ~ 0
+SDI
+Text GLabel 3950 1450 0    50   Input ~ 0
+FSI
+Text GLabel 3950 1950 0    50   Input ~ 0
+SDLr
+Text GLabel 3950 2050 0    50   Input ~ 0
+FSOr
+Text GLabel 3950 2150 0    50   Input ~ 0
+SDLb
+Text GLabel 3950 2650 0    50   Input ~ 0
+FSOb
+Wire Wire Line
+	3950 2650 4250 2650
+Wire Wire Line
+	4250 2150 3950 2150
+Wire Wire Line
+	3950 2050 4250 2050
+Wire Wire Line
+	4250 1950 3950 1950
+Wire Wire Line
+	3950 1750 4250 1750
+Wire Wire Line
+	4250 3750 3950 3750
+Wire Wire Line
+	3950 1550 4250 1550
+Wire Wire Line
+	4250 1450 3950 1450
+NoConn ~ 4250 2250
+NoConn ~ 4250 2450
+NoConn ~ 4250 2550
+NoConn ~ 4250 1650
+NoConn ~ 4250 2850
+NoConn ~ 4250 2950
+NoConn ~ 4250 3050
+NoConn ~ 4250 3150
+NoConn ~ 4250 3250
+NoConn ~ 4250 3450
+NoConn ~ 4250 3550
+NoConn ~ 4250 3650
+NoConn ~ 4250 4250
+NoConn ~ 4250 4450
+NoConn ~ 4250 4550
+NoConn ~ 4250 4850
+NoConn ~ 4250 4950
+NoConn ~ 4250 5050
+NoConn ~ 4250 5250
+NoConn ~ 4250 5450
+NoConn ~ 4250 5550
+NoConn ~ 4250 5750
+NoConn ~ 4250 5850
+NoConn ~ 6800 5650
+NoConn ~ 6800 5250
+NoConn ~ 6800 5050
+NoConn ~ 6800 4250
+NoConn ~ 6800 4150
+NoConn ~ 6800 4050
+NoConn ~ 6800 3550
+NoConn ~ 6800 3450
+NoConn ~ 6800 3250
+NoConn ~ 6800 3150
+NoConn ~ 6800 2450
+NoConn ~ 6800 2250
+NoConn ~ 6800 2150
+NoConn ~ 6800 2050
+NoConn ~ 6800 1950
+NoConn ~ 6800 1550
+NoConn ~ 6800 1450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D4F369B
+P 3700 3950
+F 0 "#PWR?" H 3700 3800 50  0001 C CNN
+F 1 "+3.3V" V 3715 4078 50  0000 L CNN
+F 2 "" H 3700 3950 50  0001 C CNN
+F 3 "" H 3700 3950 50  0001 C CNN
+	1    3700 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 1850 6800 1850
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5D4F801D
+P 7100 3050
+F 0 "#PWR?" H 7100 2900 50  0001 C CNN
+F 1 "+1V2" V 7115 3178 50  0000 L CNN
+F 2 "" H 7100 3050 50  0001 C CNN
+F 3 "" H 7100 3050 50  0001 C CNN
+	1    7100 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 3050 6800 3050
+NoConn ~ 6800 4550
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5D4F9F83
+P 3700 4150
+F 0 "#PWR?" H 3700 4000 50  0001 C CNN
+F 1 "+2V5" V 3715 4278 50  0000 L CNN
+F 2 "" H 3700 4150 50  0001 C CNN
+F 3 "" H 3700 4150 50  0001 C CNN
+	1    3700 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 4150 3700 4150
+Wire Wire Line
+	3700 3950 4250 3950
+NoConn ~ 4250 3850
+NoConn ~ 4250 4650
+NoConn ~ 4250 5150
+NoConn ~ 6800 5550
+NoConn ~ 6800 2950
+NoConn ~ 6800 3950
+Text GLabel 3950 2750 0    50   Input ~ 0
+TX_On
+Wire Wire Line
+	3950 2750 4250 2750
+NoConn ~ 4250 4050
+NoConn ~ 4250 5650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D50E3DF
+P 7100 1850
+F 0 "#PWR?" H 7100 1700 50  0001 C CNN
+F 1 "+3.3V" V 7100 1950 50  0000 L CNN
+F 2 "" H 7100 1850 50  0001 C CNN
+F 3 "" H 7100 1850 50  0001 C CNN
+	1    7100 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D50E851
+P 7000 6000
+F 0 "R?" H 7070 6046 50  0000 L CNN
+F 1 "R" H 7070 5955 50  0000 L CNN
+F 2 "" V 6930 6000 50  0001 C CNN
+F 3 "~" H 7000 6000 50  0001 C CNN
+	1    7000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D50EE0A
+P 7000 6250
+F 0 "#PWR?" H 7000 6100 50  0001 C CNN
+F 1 "+3.3V" H 7015 6423 50  0000 C CNN
+F 2 "" H 7000 6250 50  0001 C CNN
+F 3 "" H 7000 6250 50  0001 C CNN
+	1    7000 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 5750 7000 5850
+Connection ~ 7000 5750
+Wire Wire Line
+	7000 5750 6800 5750
+Wire Wire Line
+	7000 6150 7000 6250
+$EndSCHEMATC
