@@ -54,15 +54,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\97jsm\documents\github\emi-sensor\building sensor\code\bandpass_design.dsn")
-      (Path "Design Resources"
-         "c:\users\97jsm\documents\github\emi-sensor\building sensor\code\bandpass_design.dsn"
-         "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "c:\users\97jsm\documents\github\emi-sensor\building sensor\code\bandpass_design.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -72,8 +64,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 0 629 -8 -31 52 1684 52 507")
-        (Scroll "56 342")
+        (Placement "44 2 3 0 629 -8 -31 52 1608 52 507")
+        (Scroll "516 488")
         (Zoom "200")
         (Occurrence "/"))
       (Path

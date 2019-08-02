@@ -1,0 +1,66 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+OSC_ECS-3963-400-BN-TR
+$EndINDEX
+$MODULE OSC_ECS-3963-400-BN-TR
+Po 0 0 0 15 00000000 00000000 ~~
+Li OSC_ECS-3963-400-BN-TR
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -1.3942 -2.46882 0.481173 0.481173 0 0.05 N V 21 "OSC_ECS-3963-400-BN-TR"
+T1 -1.18798 2.41422 0.480801 0.480801 0 0.05 N V 21 "VAL**"
+DS -2.5 -1.6 2.5 -1.6 0.127 27
+DS 2.5 -1.6 2.5 1.6 0.127 27
+DS 2.5 1.6 -2.5 1.6 0.127 27
+DS -2.5 1.6 -2.5 -1.6 0.127 27
+DS -2.75 -1.95 2.75 -1.95 0.05 26
+DS 2.75 -1.95 2.75 1.95 0.05 26
+DS 2.75 1.95 -2.75 1.95 0.05 26
+DS -2.75 1.95 -2.75 -1.95 0.05 26
+DS -2.5 1.6 -2.5 -1.6 0.127 21
+DS 2.5 -1.6 2.5 1.6 0.127 21
+DC -3 1.2 -2.9 1.2 0.2 27
+DS -2.224 -1.6 -2.5 -1.6 0.127 21
+DS -2.224 1.6 -2.5 1.6 0.127 21
+DS 2.5 -1.6 2.224 -1.6 0.127 21
+DS 2.5 1.6 2.224 1.6 0.127 21
+DC -3 1.2 -2.9 1.2 0.2 21
+$PAD
+Sh "1" R 1.4 1.2 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.27 1.1
+$EndPAD
+$PAD
+Sh "2" R 1.4 1.2 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.27 1.1
+$EndPAD
+$PAD
+Sh "3" R 1.4 1.2 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.27 -1.1
+$EndPAD
+$PAD
+Sh "4" R 1.4 1.2 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.27 -1.1
+$EndPAD
+$EndMODULE OSC_ECS-3963-400-BN-TR

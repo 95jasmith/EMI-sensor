@@ -1,0 +1,25 @@
+Component “CR1” footprint “SOD123” was not found in any library.
+
+Component “CR2” footprint “SO-16” was not found in any library.
+
+Component “U5” footprint “DDC5” was not found in any library.
+
+Component “U6” footprint “DDA8” was not found in any library.
+
+Component “U8” footprint “R_8” was not found in any library.
+
+Component “U9” footprint “SV_64_2” was not found in any library.
+
+Component “U10” footprint “UCBGA81” was not found in any library.
+
+Component “U11” footprint “D14” was not found in any library.
+
+Component “U12” footprint “RM_8” was not found in any library.
+
+Component “U13” footprint “D14” was not found in any library.
+
+Component “U14” footprint “R_8” was not found in any library.
+
+Component “U15” footprint “SV_64_2” was not found in any library.
+
+Component “Y1” footprint “OSC_ECS-3963-400-BN-TR” was not found in any library.
