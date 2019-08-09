@@ -1,7 +1,7 @@
 
-**** 08/06/19 14:22:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 08/06/19 15:28:41 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\bandpass_design-pspicefiles\schemat
+ ** Profile: "SCHEMATIC1-Sim3"  [ C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\Bandpass_design-PSpiceFiles\SCHEMAT
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "Sim1.cir" 
+** Creating circuit file "Sim3.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -32,23 +32,23 @@
 **** INCLUDING SCHEMATIC1.net ****
 * source BANDPASS_DESIGN
 E_U1         N00292 0 VALUE {LIMIT(V(N00267,N00342)*1E6,-15V,+15V)}
-R_R1         N00275 N00271  159.15 TC=0,0 
-R_R2         N00271 N00292  53.05 TC=0,0 
-R_R3         0 N00267  318.3 TC=0,0 
-R_R4         N00292 N00342  50k TC=0,0 
-R_R5         N00342 0  11.2k TC=0,0 
-C_C1         N00271 N00267  1u  TC=0,0 
-C_C2         0 N00267  500n  TC=0,0 
+R_R1         N00275 N00271  1.6k TC=0,0 
+R_R2         N00271 N00292  536 TC=0,0 
+R_R3         0 N00267  3.16k TC=0,0 
+R_R4         N00292 N00342  5.36k TC=0,0 
+R_R5         N00342 0  1.2k TC=0,0 
+C_C1         N00271 N00267  .1u  TC=0,0 
+C_C2         0 N00267  .047u  TC=0,0 
 V_V1         N00275 0 DC 0Vdc AC 5Vac 
 
-**** RESUMING Sim1.cir ****
+**** RESUMING Sim3.cir ****
 .END
 
 INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
 
-**** 08/06/19 14:22:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 08/06/19 15:28:41 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\bandpass_design-pspicefiles\schemat
+ ** Profile: "SCHEMATIC1-Sim3"  [ C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\Bandpass_design-PSpiceFiles\SCHEMAT
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -79,9 +79,9 @@ INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each f
 
           JOB CONCLUDED
 
-**** 08/06/19 14:22:01 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 08/06/19 15:28:41 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
- ** Profile: "SCHEMATIC1-Sim1"  [ C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\bandpass_design-pspicefiles\schemat
+ ** Profile: "SCHEMATIC1-Sim3"  [ C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\Bandpass_design-PSpiceFiles\SCHEMAT
 
 
  ****     JOB STATISTICS SUMMARY
@@ -91,5 +91,5 @@ INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each f
 
 
 
-  Total job time (using Solver 1)   =         .05
+  Total job time (using Solver 1)   =         .02
 

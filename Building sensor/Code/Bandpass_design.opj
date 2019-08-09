@@ -14,10 +14,18 @@
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\bandpass_design-pspicefiles\schematic1\sim1.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\bandpass_design-pspicefiles\schematic1\sim1.sim"
         (DisplayName "SCHEMATIC1-Sim1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\bandpass_design-pspicefiles\schematic1\sim2.sim"
+        (DisplayName "SCHEMATIC1-Sim2")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\bandpass_design-pspicefiles\schematic1\sim3.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\bandpass_design-pspicefiles\schematic1\sim3.sim"
+        (DisplayName "SCHEMATIC1-Sim3")
         (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
@@ -65,7 +73,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 0 629 -8 -31 52 1608 52 507")
-        (Scroll "516 488")
+        (Scroll "81 428")
         (Zoom "200")
         (Occurrence "/"))
       (Path
