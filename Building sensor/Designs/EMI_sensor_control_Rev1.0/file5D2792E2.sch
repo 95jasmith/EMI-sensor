@@ -1474,4 +1474,8 @@ Text GLabel 11100 6900 3    50   Input ~ 0
 ADCSync
 Wire Wire Line
 	11100 6600 11100 6900
+NoConn ~ 7050 8850
+NoConn ~ 7050 9050
+NoConn ~ 7050 9250
+NoConn ~ 7050 9350
 $EndSCHEMATC

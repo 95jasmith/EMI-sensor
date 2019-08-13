@@ -20,7 +20,7 @@ U 1 1 5D282925
 P 8500 4100
 F 0 "AE1" H 8730 4114 50  0000 L CNN
 F 1 "Antenna_Loop Tx" H 8730 4023 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Custom" H 8500 4100 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal" H 8500 4100 50  0001 C CNN
 F 3 "~" H 8500 4100 50  0001 C CNN
 	1    8500 4100
 	1    0    0    -1  

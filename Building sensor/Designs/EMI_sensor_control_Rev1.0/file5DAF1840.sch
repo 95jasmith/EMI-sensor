@@ -20,7 +20,7 @@ U 1 1 5DAFD1F9
 P 6500 2550
 F 0 "AE2" H 6730 2564 50  0000 L CNN
 F 1 "Antenna_Loop Bx" H 6730 2473 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Custom" H 6500 2550 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal" H 6500 2550 50  0001 C CNN
 F 3 "~" H 6500 2550 50  0001 C CNN
 	1    6500 2550
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5DAFD1FF
 P 7600 2550
 F 0 "AE3" H 7830 2564 50  0000 L CNN
 F 1 "Antenna_Loop Rx" H 7830 2473 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Custom" H 7600 2550 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal" H 7600 2550 50  0001 C CNN
 F 3 "~" H 7600 2550 50  0001 C CNN
 	1    7600 2550
 	1    0    0    -1  

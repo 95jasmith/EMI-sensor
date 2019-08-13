@@ -1336,7 +1336,7 @@ SH2
 Text GLabel 3100 2400 2    50   Input ~ 0
 SH1
 Text GLabel 3100 2250 2    50   Input ~ 0
-SH0
+SH0r
 Wire Wire Line
 	3100 2250 3000 2250
 Wire Wire Line
@@ -1378,7 +1378,7 @@ SH2
 Text GLabel 5250 6300 0    50   Input ~ 0
 SH1
 Text GLabel 8100 5600 2    50   Input ~ 0
-SH0
+SH0r
 Wire Wire Line
 	8100 5900 7500 5900
 Wire Wire Line

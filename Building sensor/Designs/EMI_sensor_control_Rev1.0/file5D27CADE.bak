@@ -1288,30 +1288,10 @@ Connection ~ 13300 7200
 Wire Wire Line
 	13300 7200 13300 7500
 $Comp
-L dk_Diodes-Rectifiers-Single:B340A-13-F D?
-U 1 1 5D4FC5D2
-P 15500 6300
-F 0 "D?" V 15553 6197 60  0000 R CNN
-F 1 "B340A-13-F" V 15447 6197 60  0000 R CNN
-F 2 "digikey-footprints:DO-214AC" H 15700 6500 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30891.pdf" H 15700 6600 60  0001 L CNN
-F 4 "B340A-FDICT-ND" H 15700 6700 60  0001 L CNN "Digi-Key_PN"
-F 5 "B340A-13-F" H 15700 6800 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 15700 6900 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 15700 7000 60  0001 L CNN "Family"
-F 8 "https://www.diodes.com/assets/Datasheets/ds30891.pdf" H 15700 7100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/diodes-incorporated/B340A-13-F/B340A-FDICT-ND/725054" H 15700 7200 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 40V 3A SMA" H 15700 7300 60  0001 L CNN "Description"
-F 11 "Diodes Incorporated" H 15700 7400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 15700 7500 60  0001 L CNN "Status"
-	1    15500 6300
-	-1   0    0    1   
-$EndComp
-$Comp
-L dk_Diodes-Rectifiers-Single:B340A-13-F D?
+L dk_Diodes-Rectifiers-Single:B340A-13-F D3
 U 1 1 5D50F1A3
 P 13300 6650
-F 0 "D?" V 13353 6547 60  0000 R CNN
+F 0 "D3" V 13353 6547 60  0000 R CNN
 F 1 "B340A-13-F" V 13247 6547 60  0000 R CNN
 F 2 "digikey-footprints:DO-214AC" H 13500 6850 60  0001 L CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds30891.pdf" H 13500 6950 60  0001 L CNN

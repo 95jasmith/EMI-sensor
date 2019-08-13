@@ -115,7 +115,7 @@ ADR1b
 Text GLabel 8100 5850 2    50   Input ~ 0
 ADR0b
 Text GLabel 8100 5550 2    50   Input ~ 0
-SH0
+SH0b
 Text GLabel 8100 6350 2    50   Input ~ 0
 SDO
 Text GLabel 8100 6550 2    50   Input ~ 0
@@ -144,7 +144,7 @@ $EndComp
 Wire Wire Line
 	3000 2650 3100 2650
 Wire Wire Line
-	2700 2650 2250 2650
+	2700 2650 2350 2650
 Text GLabel 5250 5050 0    50   Input ~ 0
 Pin20b
 Text GLabel 8100 6050 2    50   Input ~ 0
@@ -1674,4 +1674,29 @@ Wire Wire Line
 	3550 5450 5500 5450
 Wire Wire Line
 	3250 5350 5500 5350
+$Comp
+L Device:R R?
+U 1 1 5D545A7F
+P 2850 2500
+AR Path="/5D3E2E6F/5D43B010/5D545A7F" Ref="R?"  Part="1" 
+AR Path="/5DB20FE4/5D545A7F" Ref="R?"  Part="1" 
+AR Path="/5D3E2E6F/5D43B07B/5D545A7F" Ref="R65"  Part="1" 
+F 0 "R65" V 2850 2500 50  0000 C CNN
+F 1 "R 10k" V 2900 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2780 2500 50  0001 C CNN
+F 3 "~" H 2850 2500 50  0001 C CNN
+	1    2850 2500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3100 2500 2    50   Input ~ 0
+SH0b
+Wire Wire Line
+	3100 2500 3000 2500
+Wire Wire Line
+	2700 2500 2350 2500
+Wire Wire Line
+	2350 2650 2350 2500
+Connection ~ 2350 2650
+Wire Wire Line
+	2350 2650 2250 2650
 $EndSCHEMATC
