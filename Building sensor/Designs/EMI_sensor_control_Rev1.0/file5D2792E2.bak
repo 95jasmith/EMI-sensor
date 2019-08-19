@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 9 9
 Title "Pancreas EMI Conductivity Meter "
 Date ""
-Rev "1.01"
+Rev "1.02"
 Comp "Kansas State University "
 Comment1 ""
 Comment2 ""
@@ -797,7 +797,7 @@ AR Path="/5DB1585D" Ref="J?"  Part="1"
 AR Path="/5D2792E3/5DB1585D" Ref="J2"  Part="1" 
 F 0 "J2" H 2950 2067 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 2950 1976 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical_SMD" H 2900 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD" H 2900 1550 50  0001 C CNN
 F 3 "~" H 2900 1550 50  0001 C CNN
 	1    2900 1550
 	1    0    0    -1  

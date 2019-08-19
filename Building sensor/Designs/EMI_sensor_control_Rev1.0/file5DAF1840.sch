@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 7 9
 Title "Pancreas EMI Conductivity Meter "
 Date ""
-Rev ""
+Rev "1.02"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -23,32 +23,28 @@ F 1 "Antenna_Loop Bx" H 6730 2473 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal" H 6500 2550 50  0001 C CNN
 F 3 "~" H 6500 2550 50  0001 C CNN
 	1    6500 2550
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:Antenna_Loop AE3
 U 1 1 5DAFD1FF
-P 7600 2550
-F 0 "AE3" H 7830 2564 50  0000 L CNN
-F 1 "Antenna_Loop Rx" H 7830 2473 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal" H 7600 2550 50  0001 C CNN
-F 3 "~" H 7600 2550 50  0001 C CNN
-	1    7600 2550
-	1    0    0    -1  
+P 7700 2550
+F 0 "AE3" H 7930 2564 50  0000 L CNN
+F 1 "Antenna_Loop Rx" H 7930 2473 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal" H 7700 2550 50  0001 C CNN
+F 3 "~" H 7700 2550 50  0001 C CNN
+	1    7700 2550
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7600 2750 7600 3150
-Wire Wire Line
-	6600 3150 6600 2750
 $Comp
 L power:GND #PWR082
 U 1 1 5DAFD207
-P 7700 3150
-F 0 "#PWR082" H 7700 2900 50  0001 C CNN
-F 1 "GND" H 7750 3000 50  0000 C CNN
-F 2 "" H 7700 3150 50  0001 C CNN
-F 3 "" H 7700 3150 50  0001 C CNN
-	1    7700 3150
+P 6400 3150
+F 0 "#PWR082" H 6400 2900 50  0001 C CNN
+F 1 "GND" H 6450 3000 50  0000 C CNN
+F 2 "" H 6400 3150 50  0001 C CNN
+F 3 "" H 6400 3150 50  0001 C CNN
+	1    6400 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -98,50 +94,12 @@ Wire Wire Line
 	7300 5000 7300 4300
 Wire Wire Line
 	7300 4300 6100 4300
-Text GLabel 9600 2550 2    50   Input ~ 0
+Text GLabel 7100 3200 3    50   Input ~ 0
 RxCoilsig-
-Text GLabel 6500 3150 3    50   Input ~ 0
+Text GLabel 6900 3200 3    50   Input ~ 0
 BxCoilsig
-$Comp
-L power:GND #PWR086
-U 1 1 5DAFD229
-P 9600 3150
-F 0 "#PWR086" H 9600 2900 50  0001 C CNN
-F 1 "GND" H 9605 2977 50  0000 C CNN
-F 2 "" H 9600 3150 50  0001 C CNN
-F 3 "" H 9600 3150 50  0001 C CNN
-	1    9600 3150
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9600 2700 2    50   Input ~ 0
-RxOut
-Text GLabel 6600 3150 3    50   Input ~ 0
-BxOut
-Text GLabel 7600 3150 3    50   Input ~ 0
-RxOut
 Wire Wire Line
 	7700 3150 7700 2750
-Wire Wire Line
-	6500 2750 6500 3150
-Wire Wire Line
-	9300 3000 9600 3000
-Wire Wire Line
-	9300 2900 9400 2900
-Wire Wire Line
-	9400 2900 9400 2850
-Wire Wire Line
-	9400 2850 9600 2850
-Wire Wire Line
-	9300 2800 9450 2800
-Wire Wire Line
-	9450 2800 9450 2700
-Wire Wire Line
-	9450 2700 9600 2700
-Wire Wire Line
-	9450 2700 9450 2550
-Wire Wire Line
-	9450 2550 9600 2550
-Connection ~ 9450 2700
 Text GLabel 3700 5100 0    50   Input ~ 0
 RxCoilsig-
 Wire Wire Line
@@ -176,52 +134,8 @@ Wire Wire Line
 	4500 5300 4500 5500
 Text GLabel 3700 5200 0    50   Input ~ 0
 RxCoilsig+
-Text GLabel 9600 3300 2    50   Input ~ 0
+Text GLabel 7700 3150 3    50   Input ~ 0
 RxCoilsig+
-Text GLabel 9600 3450 2    50   Input ~ 0
-BxCoilsig
-$Comp
-L power:GND #PWR085
-U 1 1 5DAFD252
-P 9600 3000
-F 0 "#PWR085" H 9600 2750 50  0001 C CNN
-F 1 "GND" H 9605 2827 50  0000 C CNN
-F 2 "" H 9600 3000 50  0001 C CNN
-F 3 "" H 9600 3000 50  0001 C CNN
-	1    9600 3000
-	0    -1   -1   0   
-$EndComp
-Text GLabel 9600 2850 2    50   Input ~ 0
-BxOut
-$Comp
-L Connector:Conn_01x06_Male J1
-U 1 1 5DAFD259
-P 9100 3000
-F 0 "J1" H 9208 3381 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 9208 3290 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9100 3000 50  0001 C CNN
-F 3 "~" H 9100 3000 50  0001 C CNN
-	1    9100 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 3100 9450 3100
-Wire Wire Line
-	9450 3100 9450 3150
-Wire Wire Line
-	9450 3150 9600 3150
-Wire Wire Line
-	9300 3200 9400 3200
-Wire Wire Line
-	9400 3200 9400 3300
-Wire Wire Line
-	9400 3300 9600 3300
-Wire Wire Line
-	9300 3300 9350 3300
-Wire Wire Line
-	9350 3300 9350 3450
-Wire Wire Line
-	9350 3450 9600 3450
 Text GLabel 12700 5550 3    50   Input ~ 0
 BxCoilAmp
 NoConn ~ 12450 4750
@@ -932,4 +846,22 @@ Wire Wire Line
 Connection ~ 9950 5250
 Wire Wire Line
 	9950 5250 9800 5250
+Wire Wire Line
+	6900 3200 6900 2950
+Wire Wire Line
+	6900 2950 7100 2950
+Wire Wire Line
+	7100 3200 7100 2950
+Connection ~ 7100 2950
+Wire Wire Line
+	7100 2950 7600 2950
+Wire Wire Line
+	6500 2750 6500 2950
+Wire Wire Line
+	6900 2950 6500 2950
+Connection ~ 6900 2950
+Wire Wire Line
+	6400 2750 6400 3150
+Wire Wire Line
+	7600 2750 7600 2950
 $EndSCHEMATC

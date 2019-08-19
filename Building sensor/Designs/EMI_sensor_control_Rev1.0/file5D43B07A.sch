@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 5 9
 Title "Pancreas EMI Conductivity Meter "
 Date ""
-Rev "1.01"
+Rev "1.02"
 Comp "Kansas State University "
 Comment1 ""
 Comment2 ""

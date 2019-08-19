@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 3 9
 Title "Pancreas EMI Conductivity Meter "
 Date ""
-Rev "1.01"
+Rev "1.02"
 Comp "Kansas State University "
 Comment1 ""
 Comment2 ""
@@ -1305,10 +1305,86 @@ F 10 "DIODE SCHOTTKY 40V 3A SMA" H 13500 7650 60  0001 L CNN "Description"
 F 11 "Diodes Incorporated" H 13500 7750 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 13500 7850 60  0001 L CNN "Status"
 	1    13300 6650
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	13300 6300 13300 6450
 Wire Wire Line
 	13300 6850 13300 7000
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D53A815
+P 9400 9500
+F 0 "H1" H 9500 9549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9050 9700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 9400 9500 50  0001 C CNN
+F 3 "~" H 9400 9500 50  0001 C CNN
+	1    9400 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D53C219
+P 10100 9500
+F 0 "H3" H 10200 9549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9750 9700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 10100 9500 50  0001 C CNN
+F 3 "~" H 10100 9500 50  0001 C CNN
+	1    10100 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D53C455
+P 10450 9500
+F 0 "H4" H 10550 9549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10100 9800 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 10450 9500 50  0001 C CNN
+F 3 "~" H 10450 9500 50  0001 C CNN
+	1    10450 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D53BB3B
+P 9750 9500
+F 0 "H2" H 9850 9549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9400 9800 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad_Via" H 9750 9500 50  0001 C CNN
+F 3 "~" H 9750 9500 50  0001 C CNN
+	1    9750 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR073
+U 1 1 5D53E36D
+P 9900 9950
+F 0 "#PWR073" H 9900 9700 50  0001 C CNN
+F 1 "GND" H 9905 9777 50  0000 C CNN
+F 2 "" H 9900 9950 50  0001 C CNN
+F 3 "" H 9900 9950 50  0001 C CNN
+	1    9900 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 9600 9400 9800
+Wire Wire Line
+	9400 9800 9750 9800
+Wire Wire Line
+	10450 9800 10450 9600
+Wire Wire Line
+	9750 9600 9750 9800
+Connection ~ 9750 9800
+Wire Wire Line
+	9750 9800 9900 9800
+Wire Wire Line
+	10100 9600 10100 9800
+Connection ~ 10100 9800
+Wire Wire Line
+	10100 9800 10450 9800
+Wire Wire Line
+	9900 9950 9900 9800
+Connection ~ 9900 9800
+Wire Wire Line
+	9900 9800 10100 9800
 $EndSCHEMATC
