@@ -1,0 +1,1409 @@
+2019-08-20 11:53:57,904 [INFO] Activator:176 - 
+
+
+2019-08-20 11:53:57,904 [INFO] Activator:177 - !SESSION log4j initialized
+2019-08-20 11:54:12,384 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903
+2019-08-20 11:54:12,395 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/mcu/
+2019-08-20 11:54:12,398 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/boardmanager/
+2019-08-20 11:54:12,399 [INFO] DbMcus:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/images/
+2019-08-20 11:54:12,399 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/images/
+2019-08-20 11:54:12,401 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/mcu/
+2019-08-20 11:54:12,433 [ERROR] ApiFinderProperties:197 - Copy problem with src file : C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\db\plugins\mcufinder\mcu\csand target file : C:\Users\97jsm\.stmcufinder\plugins\mcufinder\mcu\cs
+2019-08-20 11:54:12,527 [WARN] ApiFinderProperties:106 - C:\Users\97jsm\.stmcufinder\plugins\mcufinder\mcu\mcuFinder.mfd doesn't exist
+2019-08-20 11:54:12,527 [INFO] DbMcusAds:72 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,527 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,535 [INFO] DbMcusJson:59 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,535 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,537 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,677 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/cs/
+2019-08-20 11:54:12,760 [INFO] RulesReader:52 - Compatibility file has been processed (156 Rules)
+2019-08-20 11:54:12,829 [INFO] MicroXplorer:521 - Detected Java Version = 1.8.0_202
+2019-08-20 11:54:12,829 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/mcu/
+2019-08-20 11:54:12,829 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/boardmanager/
+2019-08-20 11:54:12,829 [INFO] DbMcus:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/images/
+2019-08-20 11:54:12,829 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/images/
+2019-08-20 11:54:12,829 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/mcu/
+2019-08-20 11:54:12,829 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,845 [INFO] DbMcusAds:72 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,845 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,845 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,845 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,845 [INFO] DbMcusJson:59 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,845 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,861 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,861 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,861 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,861 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,861 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,876 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/cs/
+2019-08-20 11:54:12,945 [INFO] MainPanel:211 - HeapMemory: 293601280
+2019-08-20 11:54:12,992 [INFO] DbMcusXml:68 - Set database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/mcu/
+2019-08-20 11:54:12,992 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/boardmanager/
+2019-08-20 11:54:12,992 [INFO] DbMcus:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/images/
+2019-08-20 11:54:12,992 [INFO] DbBoards:232 - Set plugin images path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/images/
+2019-08-20 11:54:12,992 [INFO] APIGFXSelector:72 - Set database path to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/plugins/mcufinder/mcu/
+2019-08-20 11:54:12,999 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,999 [INFO] DbMcusAds:72 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,999 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,999 [INFO] DbMcusDocs:92 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,999 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,999 [INFO] DbMcusJson:59 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,999 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,999 [INFO] DbBoardsDocs:84 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,999 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,999 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/
+2019-08-20 11:54:12,999 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,999 [WARN] DbFile:31 - Overriding database path with different value: C:\Users\97jsm\.stmcufinder\plugins\mcufinder/ => C:\Users\97jsm\.stmcufinder\plugins\mcufinder
+2019-08-20 11:54:12,999 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\97jsm\.stmcufinder\plugins\mcufinder//mcu/cs/
+2019-08-20 11:54:13,014 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903
+2019-08-20 11:54:13,014 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=]
+2019-08-20 11:54:13,014 [INFO] PluginManage:292 - Check plugin analytics
+2019-08-20 11:54:13,030 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2019-08-20 11:54:13,030 [INFO] PluginManage:292 - Check plugin clock
+2019-08-20 11:54:13,046 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2019-08-20 11:54:13,046 [INFO] PluginManage:292 - Check plugin ddr
+2019-08-20 11:54:13,046 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2019-08-20 11:54:13,046 [INFO] PluginManage:292 - Check plugin filemanager
+2019-08-20 11:54:13,146 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2019-08-20 11:54:13,146 [INFO] PluginManage:292 - Check plugin ipmanager
+2019-08-20 11:54:13,156 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2019-08-20 11:54:13,156 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2019-08-20 11:54:13,614 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2019-08-20 11:54:13,614 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2019-08-20 11:54:13,884 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2019-08-20 11:54:13,884 [INFO] PluginManage:292 - Check plugin power
+2019-08-20 11:54:13,894 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2019-08-20 11:54:13,894 [INFO] PluginManage:292 - Check plugin projectmanager
+2019-08-20 11:54:13,910 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2019-08-20 11:54:13,910 [INFO] PluginManage:292 - Check plugin thirdparty
+2019-08-20 11:54:13,941 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/97jsm/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 0
+2019-08-20 11:54:13,957 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2019-08-20 11:54:13,957 [INFO] PluginManage:292 - Check plugin tools
+2019-08-20 11:54:13,972 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2019-08-20 11:54:13,972 [INFO] PluginManage:292 - Check plugin updater
+2019-08-20 11:54:13,988 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2019-08-20 11:54:13,988 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2019-08-20 11:54:14,134 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-08-20 11:54:14,303 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,304 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2019-08-20 11:54:14,332 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,332 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2019-08-20 11:54:14,411 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,412 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2019-08-20 11:54:14,439 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,439 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2019-08-20 11:54:14,490 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,490 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2019-08-20 11:54:14,540 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,541 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2019-08-20 11:54:14,630 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,631 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2019-08-20 11:54:14,643 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,644 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2019-08-20 11:54:14,721 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:14,721 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2019-08-20 11:54:15,063 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,063 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2019-08-20 11:54:15,076 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,077 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2019-08-20 11:54:15,170 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,170 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2019-08-20 11:54:15,324 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,324 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2019-08-20 11:54:15,459 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,460 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2019-08-20 11:54:15,586 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,586 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2019-08-20 11:54:15,620 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,621 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2019-08-20 11:54:15,795 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,796 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2019-08-20 11:54:15,822 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,822 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2019-08-20 11:54:15,979 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:15,979 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2019-08-20 11:54:16,002 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,002 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2019-08-20 11:54:16,124 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,124 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2019-08-20 11:54:16,250 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,250 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2019-08-20 11:54:16,298 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,299 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2019-08-20 11:54:16,376 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,377 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2019-08-20 11:54:16,476 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,479 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2019-08-20 11:54:16,493 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,493 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2019-08-20 11:54:16,852 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,853 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2019-08-20 11:54:16,921 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,922 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2019-08-20 11:54:16,946 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,946 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2019-08-20 11:54:16,978 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,978 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2019-08-20 11:54:16,991 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:16,992 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2019-08-20 11:54:17,070 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:17,070 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2019-08-20 11:54:17,083 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:17,083 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2019-08-20 11:54:17,098 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:17,098 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2019-08-20 11:54:17,112 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:17,112 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2019-08-20 11:54:17,124 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:17,125 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2019-08-20 11:54:17,155 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:54:17,155 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2019-08-20 11:54:17,456 [INFO] BoardConnectionPanel:217 - [DDR PANEL] osNameString: Windows
+2019-08-20 11:54:17,711 [FATAL] Updater:277 - Updater called before beeing initialized
+2019-08-20 11:54:18,098 [FATAL] Updater:277 - Updater called before beeing initialized
+2019-08-20 11:54:18,109 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-08-20 11:54:18,109 [FATAL] Updater:277 - Updater called before beeing initialized
+2019-08-20 11:54:18,119 [INFO] MainDdrPanel:82 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.0.0.201904021149\tools\bin
+2019-08-20 11:54:18,145 [INFO] Updater:860 - Updater Version found : 5.3.0
+2019-08-20 11:54:18,156 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903
+2019-08-20 11:54:18,187 [INFO] MainUpdater:445 - Copy updater definitions from MX database
+2019-08-20 11:54:18,217 [INFO] MainUpdater:478 - Copy flag file definitions from MX database
+2019-08-20 11:54:18,223 [INFO] MainUpdater:494 - Copy thirdparty index definitions from MX database
+2019-08-20 11:54:18,227 [INFO] MainUpdater:513 - Copy default thirdparty db definitions from MX database
+2019-08-20 11:54:18,450 [INFO] MainUpdater:2040 - connection check result : 10
+2019-08-20 11:54:18,450 [INFO] MainUpdater:2607 - Updater definition file requires update
+2019-08-20 11:54:18,450 [INFO] MainUpdater:229 - Updater Check For Update Now.
+2019-08-20 11:54:18,450 [INFO] MicroXplorer:401 - Change Database Version : DB.5.0.30
+2019-08-20 11:54:18,511 [INFO] ServerAccessManage:347 - Download File updaters.zip
+2019-08-20 11:54:18,794 [INFO] FileExtend:191 - Unzip File : updaters.zip
+2019-08-20 11:54:18,794 [INFO] FileExtend:206 - Standard Zip Deflate
+2019-08-20 11:54:19,868 [INFO] FileExtend:191 - Unzip File : updaters.zip
+2019-08-20 11:54:19,869 [INFO] FileExtend:206 - Standard Zip Deflate
+2019-08-20 11:54:19,942 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:20,465 [INFO] ServerAccessManage:347 - Download File PacksControlFlags.xml
+2019-08-20 11:54:20,760 [INFO] ServerAccessManage:347 - Download File cubemx.pidx
+2019-08-20 11:54:21,252 [INFO] ServerAccessManage:347 - Download File STMicroelectronics.X-CUBE-BLE1.pdsc
+2019-08-20 11:54:22,159 [ERROR] ServerAccessManage:941 - Problem, file not found on Server
+2019-08-20 11:54:22,614 [INFO] ServerAccessManage:347 - Download File STMicroelectronics.X-CUBE-MEMS1.pdsc
+2019-08-20 11:54:22,943 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:23,774 [INFO] ServerAccessManage:347 - Download File STMicroelectronics.X-CUBE-AI.pdsc
+2019-08-20 11:54:24,527 [INFO] ServerAccessManage:347 - Download File STMicroelectronics.X-CUBE-NFC4.pdsc
+2019-08-20 11:54:25,074 [INFO] ServerAccessManage:347 - Download File STMicroelectronics.X-CUBE-GNSS1.pdsc
+2019-08-20 11:54:25,702 [ERROR] ServerAccessManage:941 - Problem, file not found on Server
+2019-08-20 11:54:25,952 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:26,162 [ERROR] ServerAccessManage:941 - Problem, file not found on Server
+2019-08-20 11:54:26,580 [INFO] MainUpdater:2040 - connection check result : 10
+2019-08-20 11:54:26,580 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-08-20 11:54:26,595 [ERROR] ServerAccessManage:941 - Problem, file not found on Server
+2019-08-20 11:54:26,783 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2019-08-20 11:54:26,798 [INFO] FinderPluginLoader:85 - Searching for filters in installed packs
+2019-08-20 11:54:26,798 [INFO] DbMcusXml:106 - Load MCU database from C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/mcu/families.xml
+2019-08-20 11:54:26,970 [ERROR] ServerAccessManage:941 - Problem, file not found on Server
+2019-08-20 11:54:27,322 [INFO] DbMcusJson:87 - JSON generation date=Fri Jun 21 05:28:09 CDT 2019 (1561112889)
+2019-08-20 11:54:27,413 [ERROR] ServerAccessManage:941 - Problem, file not found on Server
+2019-08-20 11:54:27,880 [ERROR] ServerAccessManage:941 - Problem, file not found on Server
+2019-08-20 11:54:27,912 [INFO] LoadServerUpdatesThread:272 - End of LoadServerUpdate Thread
+2019-08-20 11:54:27,947 [INFO] CheckServerUpdateThread:121 - End of CheckServer Thread
+2019-08-20 11:54:28,016 [INFO] PopulateThirdPartyThread:82 - Ending populate Thread
+2019-08-20 11:54:28,018 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/97jsm/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2019-08-20 11:54:28,040 [INFO] DbMcus:193 - Found 1496 MCUs (1455 are supported by CubeMX, 1455 are visible in CubeMX)
+2019-08-20 11:54:28,041 [INFO] ApiDb:147 - User favorites file not found: C:\Users\97jsm/.stm32cubeide/favorites.mcus.txt
+2019-08-20 11:54:28,041 [INFO] DbMcus:205 - Set 0 / 0 favorites MCUs
+2019-08-20 11:54:28,046 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/97jsm/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 1 ms. number of Sw pack : 5
+2019-08-20 11:54:28,046 [INFO] Engine:435 - softwarePackList size : 5
+2019-08-20 11:54:28,050 [INFO] Engine:447 - compute dependency for SwPack X-CUBE-BLE1 have been done, and update is requested
+2019-08-20 11:54:28,083 [INFO] Engine:447 - compute dependency for SwPack X-CUBE-MEMS1 have been done, and update is requested
+2019-08-20 11:54:28,088 [INFO] Engine:447 - compute dependency for SwPack X-CUBE-AI have been done, and update is requested
+2019-08-20 11:54:28,092 [INFO] Engine:447 - compute dependency for SwPack X-CUBE-NFC4 have been done, and update is requested
+2019-08-20 11:54:28,095 [INFO] Engine:447 - compute dependency for SwPack X-CUBE-GNSS1 have been done, and update is requested
+2019-08-20 11:54:28,096 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/97jsm/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2019-08-20 11:54:28,118 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/97jsm/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 2 ms. number of Sw pack : 5
+2019-08-20 11:54:28,119 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Software Pack is missing : STMicroelectronics.X-CUBE-BLE1.4.4.0
+2019-08-20 11:54:28,120 [ERROR] ThirdParty:732 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-BLE1.4.4.0
+2019-08-20 11:54:28,122 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Software Pack is missing : STMicroelectronics.X-CUBE-MEMS1.6.2.0
+2019-08-20 11:54:28,123 [ERROR] ThirdParty:732 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-MEMS1.6.2.0
+2019-08-20 11:54:28,125 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Software Pack is missing : STMicroelectronics.X-CUBE-AI.4.0.0
+2019-08-20 11:54:28,125 [ERROR] ThirdParty:732 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-AI.4.0.0
+2019-08-20 11:54:28,127 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Software Pack is missing : STMicroelectronics.X-CUBE-NFC4.1.4.0
+2019-08-20 11:54:28,128 [ERROR] ThirdParty:732 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-NFC4.1.4.0
+2019-08-20 11:54:28,130 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Software Pack is missing : STMicroelectronics.X-CUBE-GNSS1.3.0.0
+2019-08-20 11:54:28,131 [ERROR] ThirdParty:732 - Engine buildDependencyDb : invalid pack or unsuported pack STMicroelectronics.X-CUBE-GNSS1.3.0.0
+2019-08-20 11:54:28,659 [INFO] DbMcusAds:130 - JSON generation date=Wed Feb 20 10:46:15 CST 2019 (1550681175)
+2019-08-20 11:54:28,956 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:28,972 [INFO] ServerAccessManage:347 - Download File 
+2019-08-20 11:54:30,114 [INFO] LoadUrlFilesThread:147 - End of LoadServerUrlFiles without Thread
+2019-08-20 11:54:30,157 [INFO] McuDetailPanel:180 - Set advertising image to C:/Users/97jsm/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-08-20 11:54:31,595 [INFO] ServerAccessManage:347 - Download File mcusDocs.json
+2019-08-20 11:54:31,957 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:32,101 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2019-08-20 11:54:34,958 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:37,962 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:40,486 [INFO] ServerAccessManage:347 - Download File mcusFeaturesAndDescription.json
+2019-08-20 11:54:40,970 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:43,975 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:46,983 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:49,988 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:52,995 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:56,005 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:57,240 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2019-08-20 11:54:57,537 [INFO] ServerAccessManage:347 - Download File mcusAds.json
+2019-08-20 11:54:57,600 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2019-08-20 11:54:59,010 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:54:59,226 [INFO] ServerAccessManage:347 - Download File boardsDocs.json
+2019-08-20 11:54:59,605 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2019-08-20 11:55:00,089 [INFO] ServerAccessManage:347 - Download File boards.json
+2019-08-20 11:55:00,859 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2019-08-20 11:55:01,201 [INFO] ServerAccessManage:347 - Download File crdb.zip
+2019-08-20 11:55:02,017 [WARN] MainUpdater:1068 - Updater busy. Cannot search thirdparties
+2019-08-20 11:55:02,521 [INFO] FileExtend:191 - Unzip File : crdb.zip
+2019-08-20 11:55:02,521 [INFO] FileExtend:206 - Standard Zip Deflate
+2019-08-20 11:55:02,568 [INFO] LoadUrlFilesThread:129 - End of LoadUrlFiles Thread
+2019-08-20 11:55:02,584 [INFO] DbMcusDocs:126 - JSON generation date=Fri Jul 19 05:04:23 CDT 2019 (1563530663)
+2019-08-20 11:55:02,693 [INFO] DbMcusDocs:61 - Found 503 MCUs documents
+2019-08-20 11:55:02,693 [INFO] ApiDb:186 - Save user favorites file C:\Users\97jsm/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2019-08-20 11:55:02,693 [INFO] ApiDb:191 - User favorites MCUs=[]
+2019-08-20 11:55:02,693 [INFO] DbMcusXml:106 - Load MCU database from C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\/mcu/families.xml
+2019-08-20 11:55:02,990 [INFO] DbMcusJson:87 - JSON generation date=Fri Jul 19 05:04:23 CDT 2019 (1563530663)
+2019-08-20 11:55:03,377 [INFO] DbMcus:193 - Found 1496 MCUs (1455 are supported by CubeMX, 1455 are visible in CubeMX)
+2019-08-20 11:55:03,377 [INFO] ApiDb:158 - Load user favorites file C:\Users\97jsm/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2019-08-20 11:55:03,377 [INFO] ApiDb:163 - User favorites MCUs=[]
+2019-08-20 11:55:03,377 [INFO] DbMcus:205 - Set 0 / 0 favorites MCUs
+2019-08-20 11:55:03,455 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-08-20 11:55:03,596 [INFO] DbBoardsDocs:118 - JSON generation date=Fri Jul 19 05:04:23 CDT 2019 (1563530663)
+2019-08-20 11:55:03,611 [INFO] DbBoardsPdsc:92 - Found 18 items
+2019-08-20 11:55:03,611 [INFO] DbBoardsPdsc:92 - Found 9 items
+2019-08-20 11:55:03,627 [INFO] DbBoardsPdsc:92 - Found 27 items
+2019-08-20 11:55:03,627 [INFO] DbBoardsPdsc:92 - Found 1 items
+2019-08-20 11:55:03,642 [INFO] DbBoardsPdsc:92 - Found 37 items
+2019-08-20 11:55:03,658 [INFO] DbBoardsPdsc:92 - Found 37 items
+2019-08-20 11:55:03,658 [INFO] DbBoardsPdsc:92 - Found 1 items
+2019-08-20 11:55:03,674 [INFO] DbBoardsJson:79 - JSON generation date=Thu Jul 04 09:02:38 CDT 2019 (1562248958)
+2019-08-20 11:55:03,674 [INFO] DbBoards:120 - Found 130 boards (129 are supported by CubeMX)
+2019-08-20 11:55:03,674 [INFO] DbBoardsDocs:118 - JSON generation date=Fri Jul 19 05:04:23 CDT 2019 (1563530663)
+2019-08-20 11:55:03,674 [INFO] DbBoardsDocs:57 - Found 151 boards documents
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board NUCLEO-G031K8 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board B-G474E-DPOW1 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32F7308-DISCO has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32G0316-DISCO has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32H747I-EVAL has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32H757I-EVAL has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2019-08-20 11:55:03,674 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2019-08-20 11:55:04,545 [INFO] ApiDb:147 - User favorites file not found: C:\Users\97jsm/.stm32cubeide/favorites.boards.txt
+2019-08-20 11:55:04,545 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2019-08-20 11:55:04,547 [INFO] DbBoardsDocs:57 - Found 302 boards documents
+2019-08-20 11:55:04,547 [INFO] ApiDb:186 - Save user favorites file C:\Users\97jsm/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2019-08-20 11:55:04,548 [INFO] ApiDb:191 - User favorites Boards=[]
+2019-08-20 11:55:04,549 [INFO] DbBoardsPdsc:92 - Found 18 items
+2019-08-20 11:55:04,550 [INFO] DbBoardsPdsc:92 - Found 9 items
+2019-08-20 11:55:04,552 [INFO] DbBoardsPdsc:92 - Found 27 items
+2019-08-20 11:55:04,552 [INFO] DbBoardsPdsc:92 - Found 1 items
+2019-08-20 11:55:04,555 [INFO] DbBoardsPdsc:92 - Found 37 items
+2019-08-20 11:55:04,558 [INFO] DbBoardsPdsc:92 - Found 37 items
+2019-08-20 11:55:04,559 [INFO] DbBoardsPdsc:92 - Found 1 items
+2019-08-20 11:55:04,568 [INFO] DbBoardsJson:79 - JSON generation date=Thu Jul 04 09:02:38 CDT 2019 (1562248958)
+2019-08-20 11:55:04,572 [INFO] DbBoards:120 - Found 130 boards (129 are supported by CubeMX)
+2019-08-20 11:55:04,572 [WARN] DbBoards:130 - board NUCLEO-H743ZI2 has no document id list !
+2019-08-20 11:55:04,573 [WARN] DbBoards:130 - board NUCLEO-G031K8 has no document id list !
+2019-08-20 11:55:04,573 [WARN] DbBoards:130 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2019-08-20 11:55:04,574 [WARN] DbBoards:130 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2019-08-20 11:55:04,574 [WARN] DbBoards:130 - board P-NUCLEO-WB55 has no document id list !
+2019-08-20 11:55:04,574 [WARN] DbBoards:130 - board STM32F401C-DISCO has no document id list !
+2019-08-20 11:55:04,574 [WARN] DbBoards:130 - board STM32F769I-DISC1 has no document id list !
+2019-08-20 11:55:04,574 [WARN] DbBoards:130 - board B-G474E-DPOW1 has no document id list !
+2019-08-20 11:55:04,574 [WARN] DbBoards:130 - board STM32F7308-DISCO has no document id list !
+2019-08-20 11:55:04,574 [WARN] DbBoards:130 - board STM32L-DISCOVERY has no document id list !
+2019-08-20 11:55:04,575 [WARN] DbBoards:130 - board STM32G0316-DISCO has no document id list !
+2019-08-20 11:55:04,575 [WARN] DbBoards:130 - board STM32H747I-DISC1 has no document id list !
+2019-08-20 11:55:04,575 [WARN] DbBoards:130 - board STM32MP157A-DK1 has no document id list !
+2019-08-20 11:55:04,575 [WARN] DbBoards:130 - board STM32303C-EVAL has no document id list !
+2019-08-20 11:55:04,575 [WARN] DbBoards:130 - board STM32L152D-EVAL has no document id list !
+2019-08-20 11:55:04,576 [WARN] DbBoards:130 - board STM32H743I-EVAL2 has no document id list !
+2019-08-20 11:55:04,576 [WARN] DbBoards:130 - board STM32H753I-EVAL2 has no document id list !
+2019-08-20 11:55:04,576 [WARN] DbBoards:130 - board STM32H747I-EVAL has no document id list !
+2019-08-20 11:55:04,576 [WARN] DbBoards:130 - board STM32H757I-EVAL has no document id list !
+2019-08-20 11:55:04,576 [WARN] DbBoards:130 - board STM32G474E-EVAL1 has no document id list !
+2019-08-20 11:55:04,576 [WARN] DbBoards:130 - board STEVAL-MKSBOX1V1 has no document id list !
+2019-08-20 11:55:04,993 [INFO] ApiDb:158 - Load user favorites file C:\Users\97jsm/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2019-08-20 11:55:04,994 [INFO] ApiDb:163 - User favorites Boards=[]
+2019-08-20 11:55:04,994 [INFO] DbBoards:209 - Set 0 / 0 favorites Boards
+2019-08-20 11:55:05,018 [ERROR] IntegrityCheckThread:99 - Unexpected exception IntegrityCheckThread Thread: Updater error
+2019-08-20 11:55:05,018 [INFO] ThirdPartyDb:264 - Close Third Party DataBase File (C:/Users/97jsm/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2019-08-20 11:55:05,113 [INFO] LoadUrlFilesThread:147 - End of LoadServerUrlFiles without Thread
+2019-08-20 11:55:05,118 [INFO] McuFilterPanel:282 - Update 0 favorites MCUs
+2019-08-20 11:55:05,249 [INFO] LoadUrlFilesThread:147 - End of LoadServerUrlFiles without Thread
+2019-08-20 11:55:05,249 [INFO] BoardDetailPanel:179 - Set advertising image to C:/Users/97jsm/STM32Cube/Repository/\PRSTM32MP10219-01-med.jpg
+2019-08-20 11:55:05,271 [INFO] BoardFilterPanel:211 - Update 0 favorites Boards
+2019-08-20 11:55:05,404 [INFO] CrossSelectorPresenter:1319 - Cross Selector saved comparison directory: C:\Users\97jsm\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2019-08-20 11:56:58,356 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.1
+2019-08-20 11:56:58,356 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.24.0
+2019-08-20 11:56:58,809 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] File copied successfully!!
+2019-08-20 11:57:06,452 [INFO] MainUpdater:2040 - connection check result : 10
+2019-08-20 11:57:06,452 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Successfull proxy connection.
+2019-08-20 11:57:06,499 [INFO] MicroXplorer:371 - Change Database Path : 
+2019-08-20 11:57:06,499 [INFO] MicroXplorer:401 - Change Database Version : DB.5.0.30
+2019-08-20 11:57:06,499 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-08-20 11:57:06,499 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 440366888 Bytes (709885952)
+2019-08-20 11:57:06,499 [INFO] MicroXplorer:371 - Change Database Path : 
+2019-08-20 11:57:06,499 [INFO] MicroXplorer:401 - Change Database Version : DB.5.0.30
+2019-08-20 11:57:06,499 [INFO] OpenFileManager:269 - Change cursor
+2019-08-20 11:57:08,676 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2019-08-20 11:57:08,676 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2019-08-20 11:57:08,676 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2019-08-20 11:57:08,989 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 576198032 Bytes (709885952)
+2019-08-20 11:57:08,989 [INFO] ThirdPartyDb:294 - Open Third Party DataBase File (C:/Users/97jsm/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 5
+2019-08-20 11:57:09,035 [INFO] ThirdParty:912 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2019-08-20 11:57:09,035 [INFO] ThirdParty:912 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 6.2.0
+2019-08-20 11:57:09,035 [INFO] ThirdParty:912 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 4.0.0
+2019-08-20 11:57:09,035 [INFO] ThirdParty:912 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.4.0
+2019-08-20 11:57:09,035 [INFO] ThirdParty:912 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 3.0.0
+2019-08-20 11:57:09,329 [INFO] PinOutPanel:1367 - setPackage(No Configuration,No Configuration)
+2019-08-20 11:57:09,329 [INFO] PinOutPanel:1367 - setPackage(STM32F412ZETx,LQFP144)
+2019-08-20 11:57:09,736 [INFO] UtilMem:74 - Before build in PCC Used Memory: 366857336 Bytes (709885952)
+2019-08-20 11:57:10,032 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/97jsm/.stm32cubemx/plugins/power
+2019-08-20 11:57:10,032 [INFO] UtilMem:74 - After build in PCC Used Memory: 381015152 Bytes (709885952)
+2019-08-20 11:57:10,032 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] IPUIPlugin:63 - create IPUIPlugin
+2019-08-20 11:57:10,048 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 11:57:10,064 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2019-08-20 11:57:10,064 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,064 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,141 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,143 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,145 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,146 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,147 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,152 [INFO] OpenFileManager:289 - Restore cursor
+2019-08-20 11:57:10,158 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,160 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,161 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,162 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,163 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,164 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,219 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 11:57:10,231 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,233 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,234 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,235 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,236 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,238 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,263 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 11:57:10,370 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,372 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,374 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,376 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,378 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,379 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,385 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 439735408 Bytes (709885952)
+2019-08-20 11:57:10,388 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,391 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,393 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:10,395 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,397 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 11:57:10,399 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 11:57:14,078 [INFO] ServerAccessManage:347 - Download File stm32cube_fw_f4_v1240.zip
+2019-08-20 12:29:27,176 [INFO] FileExtend:191 - Unzip File : stm32cube_fw_f4_v1240.zip
+2019-08-20 12:29:27,178 [INFO] FileExtend:206 - Standard Zip Deflate
+2019-08-20 12:33:39,899 [INFO] ServerAccessManage:347 - Download File stm32cube_fw_f4_v1241.zip
+2019-08-20 12:39:13,530 [INFO] FileExtend:191 - Unzip File : stm32cube_fw_f4_v1241.zip
+2019-08-20 12:39:13,530 [INFO] FileExtend:206 - Standard Zip Deflate
+2019-08-20 12:39:18,867 [INFO] LoadServerPackagesThread:149 - End of LoadServerPackages Thread
+2019-08-20 12:39:18,961 [INFO] CheckServerUpdateThread:121 - End of CheckServer Thread
+2019-08-20 12:39:18,961 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 526621384 Bytes (1073741824)
+2019-08-20 12:39:18,961 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:39:18,976 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:39:18,976 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:39:18,976 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 12:39:18,976 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 12:39:18,976 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:39:19,449 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: SYS
+2019-08-20 12:39:19,449 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: NVIC
+2019-08-20 12:39:19,449 [INFO] CodeGenerator:583 - code generatio: config db path: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\
+2019-08-20 12:39:20,140 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\license.tmp_save
+2019-08-20 12:39:20,436 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\license.tmp
+2019-08-20 12:39:20,552 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 12:39:20,553 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2019-08-20 12:39:20,554 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 12:39:20,555 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2019-08-20 12:39:20,556 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 12:39:20,594 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_it.c_save
+2019-08-20 12:39:20,735 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_it.c
+2019-08-20 12:39:21,182 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_it.h_save
+2019-08-20 12:39:21,267 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_it.h
+2019-08-20 12:39:21,305 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_hal_msp.c_save
+2019-08-20 12:39:21,429 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_hal_msp.c
+2019-08-20 12:39:21,453 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\system.tmp_save
+2019-08-20 12:39:21,529 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\system.tmp
+2019-08-20 12:39:21,565 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_hal_conf.h_save
+2019-08-20 12:39:21,664 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_hal_conf.h
+2019-08-20 12:39:22,060 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\main.h_save
+2019-08-20 12:39:22,553 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\main.h
+2019-08-20 12:39:22,631 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\main.c_save
+2019-08-20 12:39:22,740 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\main.c
+2019-08-20 12:39:23,878 [INFO] ProjectBuilder:1570 - Time for Copy HAL[1] : 125mS.
+2019-08-20 12:39:23,894 [INFO] ProjectBuilder:2138 - Project Generator version: 3.4.0
+2019-08-20 12:39:24,155 [INFO] ConfigFileManager:879 - The Die is : DIE441
+2019-08-20 12:39:24,157 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] configName ==Arm Cortex-M4
+2019-08-20 12:39:24,249 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] memory ==name="RAM" access="xrw" start="0x20000000" size="256"
+2019-08-20 12:39:24,250 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] memory ==name="FLASH" access="rx" start="0x8000000" size="512"
+2019-08-20 12:39:24,368 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] namefile= STM32CubeIDE
+2019-08-20 12:39:24,369 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============generate
+2019-08-20 12:39:39,131 [INFO] ProjectBuilder:2232 - Time for Generating toolchain IDE Files: 15237mS.
+2019-08-20 12:39:39,131 [INFO] ProjectBuilder:1461 - Time for Copy CMSIS : 0mS.
+2019-08-20 12:39:39,134 [INFO] ProjectBuilder:1461 - Time for Copy CMSIS : 0mS.
+2019-08-20 12:57:06,356 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 12:57:30,047 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:57:30,047 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:57:30,047 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:57:30,047 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 12:57:30,047 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 12:57:30,047 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:57:30,146 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 12:57:30,286 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 12:58:33,099 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 12:58:41,487 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:58:41,503 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:58:41,503 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:58:41,503 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 12:58:41,503 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 12:58:41,503 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 12:58:41,518 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 12:58:41,670 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 12:59:19,394 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:01:02,062 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:01:21,367 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:01:21,367 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:01:21,367 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:01:21,367 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:01:21,367 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:01:21,367 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:01:21,398 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:01:21,451 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:29,635 [INFO] NvicIntPanel:85 - NVIC parent = javax.swing.JTabbedPane[,0,43,482x330,layout=com.st.microxplorer.stobjectsui.STTabbedPaneUI$TabbedPaneLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=352,maximumSize=,minimumSize=,preferredSize=,haveRegistered=false,tabPlacement=TOP]
+2019-08-20 13:02:37,811 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:42,938 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:02:42,939 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:02:42,940 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:02:42,940 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:02:42,941 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:02:42,942 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:02:42,961 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:42,974 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:44,327 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:45,584 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:47,636 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:48,992 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:50,713 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:52,471 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:02:53,431 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:11,290 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:23,575 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:23,575 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:23,583 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:23,583 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:03:23,585 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:03:23,585 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:23,605 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:23,664 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:27,494 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:27,541 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:27,541 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:27,541 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:27,541 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:03:27,541 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:03:27,541 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:27,572 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:27,610 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:55,408 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:55,471 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:55,471 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:55,471 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:55,471 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:03:55,471 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:03:55,471 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:55,493 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:55,524 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:57,720 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:57,751 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:57,751 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:57,751 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:57,751 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:03:57,751 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:03:57,751 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:03:57,782 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:03:57,820 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:01,865 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:01,911 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:01,911 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:01,918 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:01,918 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:01,918 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:01,918 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:01,934 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:01,980 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:04,688 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:04,726 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:04,726 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:04,742 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:04,743 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:04,744 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:04,745 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:04,763 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:04,809 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:08,553 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:08,600 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:08,600 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:08,600 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:08,600 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:08,600 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:08,600 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:08,616 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:08,653 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:29,356 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:29,366 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:29,367 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:29,368 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:29,369 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:29,370 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:29,371 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:29,384 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:29,392 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:43,239 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:44,652 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:47,425 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:47,426 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:47,427 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:47,428 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:47,429 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:04:47,430 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:04:47,440 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:04:47,483 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:07,241 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:07,279 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:07,280 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:07,280 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:07,281 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:07,282 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:07,283 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:07,300 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:07,336 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:17,487 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:17,487 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:17,487 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:17,487 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:17,503 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:17,503 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:17,503 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:17,519 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:17,519 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:21,105 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:21,105 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:21,105 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:21,105 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:21,105 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:21,121 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:21,139 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:21,169 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:29,892 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:29,924 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:29,924 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:29,924 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:29,924 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:29,939 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:29,939 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:29,955 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:29,986 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:39,474 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:39,490 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:39,490 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:39,490 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:39,490 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:39,490 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:39,490 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:39,505 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:39,521 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:42,483 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:42,483 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:42,483 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:42,483 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:42,483 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:42,483 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:42,499 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:42,530 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:54,544 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:54,544 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:54,544 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:54,544 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:54,560 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:54,560 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:54,560 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:54,560 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:54,575 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:56,905 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:56,905 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:56,905 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:56,905 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:56,905 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:05:56,905 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:05:56,920 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:05:56,967 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:06:16,731 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:06:19,723 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:06:19,723 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:06:19,723 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:06:19,739 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:06:19,739 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:06:19,739 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:06:19,754 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:06:19,786 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:07:28,517 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:20,060 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:20,083 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:20,083 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:20,083 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:20,083 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:20,098 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:20,098 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:20,114 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:20,149 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:31,549 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:31,596 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:31,596 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:31,596 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:31,596 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:31,596 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:31,596 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:31,627 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:31,658 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:44,689 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:44,732 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:44,733 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:44,734 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:44,735 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:44,736 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:44,736 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:44,757 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:44,794 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:49,586 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:49,633 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:49,633 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:49,633 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:49,633 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:49,633 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:49,633 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:49,648 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:49,680 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:54,361 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:54,407 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:54,407 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:54,407 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:54,407 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:54,407 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:08:54,407 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:08:54,423 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:08:54,470 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:01,752 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:01,783 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:01,783 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:01,783 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:01,783 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:01,783 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:01,783 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:01,814 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:01,845 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:06,970 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:07,001 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:07,001 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:07,017 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:07,017 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:07,017 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:07,017 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:07,033 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:07,080 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:09,694 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:09,740 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:09,740 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:09,740 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:09,740 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:09,740 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:09,740 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:09,772 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:09,803 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:19,764 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:19,811 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:19,811 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:19,811 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:19,811 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:19,811 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:19,811 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:19,827 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:19,858 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:25,310 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:25,339 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:25,339 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:25,339 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:25,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:25,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:25,354 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:25,370 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:25,401 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:27,063 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:27,094 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:27,094 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:27,094 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:27,109 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:27,109 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:27,109 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:27,130 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:27,161 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:30,959 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:30,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:30,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:30,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:30,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:30,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:30,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:31,022 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:31,053 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:37,942 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:37,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:37,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:37,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:37,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:37,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:37,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:38,004 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:38,051 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:42,619 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:42,653 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:42,654 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:42,655 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:42,656 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:42,657 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:42,657 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:42,676 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:42,709 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:56,187 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:09:56,225 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:56,227 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:56,229 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:56,231 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:56,232 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:09:56,234 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:09:56,292 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:10:02,705 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:10:02,752 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:10:02,752 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:10:02,752 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:10:02,752 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:10:02,752 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:10:02,752 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:10:02,814 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:10:21,777 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:11:30,845 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:11:33,953 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:11:33,991 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:11:33,991 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:11:33,991 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:11:33,991 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:11:33,991 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:11:33,991 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:11:34,006 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:11:34,037 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:13:01,476 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:13:01,523 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:13:01,523 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:13:01,523 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:13:01,523 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:13:01,523 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:13:01,523 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:13:01,601 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:14:05,194 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:14:40,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:14:41,012 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:14:41,012 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:14:41,012 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:14:41,012 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:14:41,012 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:14:41,028 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:14:41,059 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:17:47,942 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:17:47,973 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:17:47,973 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:17:47,973 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:17:47,973 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:17:47,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:17:47,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:17:48,005 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:17:50,859 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:17:53,573 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:17:53,573 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:17:53,574 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:17:53,575 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:17:53,576 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:17:53,577 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:17:53,591 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:17:53,601 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:17:55,148 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:18:01,115 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:18:01,133 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:18:01,134 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:18:01,135 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:18:01,136 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:18:01,137 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:18:01,137 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:18:01,151 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:18:01,159 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:18:02,749 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:18:31,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:18:31,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:18:31,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:18:31,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:18:31,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:18:31,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:18:31,574 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:24,706 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:24,706 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:24,706 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:24,706 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:19:24,706 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:19:24,706 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:24,753 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:31,083 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:31,083 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:31,099 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:31,099 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:19:31,099 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:19:31,099 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:31,153 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:33,930 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:42,889 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:42,889 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:42,889 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:42,889 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:19:42,889 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:19:42,889 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:42,920 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:42,951 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:48,202 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:48,237 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:48,238 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:48,238 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:48,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:19:48,240 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:19:48,241 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:19:48,259 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:48,290 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:49,196 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:50,651 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:19:58,349 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:03,907 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:03,954 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:03,954 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:03,954 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:03,954 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:03,954 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:03,954 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:03,969 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:04,001 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:06,164 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:06,189 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:06,189 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:06,189 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:06,189 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:06,189 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:06,189 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:06,220 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:06,251 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:10,547 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:10,578 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:10,578 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:10,578 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:10,594 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:10,594 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:10,594 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:10,609 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:10,641 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:14,180 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:14,227 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:14,228 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:14,229 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:14,229 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:14,230 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:14,231 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:14,239 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:14,286 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:17,105 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:17,142 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:17,143 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:17,143 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:17,144 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:17,145 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:17,146 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:17,164 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:17,195 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:27,021 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:27,052 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:27,052 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:27,052 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:27,052 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:27,052 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:27,052 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:27,068 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:27,099 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:30,684 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:30,700 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:30,700 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:30,700 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:30,700 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:30,700 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:30,700 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:30,716 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:30,716 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:33,498 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:38,299 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:38,308 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:38,309 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:38,310 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:38,310 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:38,311 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:38,312 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:38,325 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:38,333 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:43,540 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:43,540 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:43,555 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:43,555 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:43,555 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:20:43,555 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:20:43,602 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:20:49,583 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:14,827 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:19,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:19,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:19,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:19,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:21:19,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:21:19,527 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:19,543 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:19,574 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:22,910 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:22,943 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:22,944 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:22,945 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:22,945 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:21:22,946 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:21:22,947 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:22,985 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:23,017 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:32,996 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:33,027 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:33,027 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:33,027 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:33,027 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:21:33,027 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:21:33,027 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:21:33,074 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:21:56,893 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:22:02,120 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:22:02,120 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:22:02,120 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:22:02,120 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:22:02,120 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:22:02,136 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:22:02,154 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:22:02,183 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:22:08,347 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:22:08,381 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:22:08,382 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:22:08,382 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:22:08,383 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:22:08,384 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:22:08,385 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:22:08,403 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:22:08,433 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:22:53,847 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:02,201 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:02,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:02,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:02,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:02,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:02,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:02,239 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:02,255 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:02,286 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:04,417 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:04,448 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:04,448 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:04,448 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:04,448 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:04,448 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:04,448 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:04,464 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:04,480 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:09,147 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:11,506 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:11,507 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:11,508 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:11,508 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:11,509 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:11,510 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:11,526 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:11,550 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:26,592 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:26,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:26,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:26,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:26,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:26,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:26,608 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:26,608 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:26,623 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:35,358 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:38,618 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:38,618 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:38,618 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:38,618 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:38,618 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:23:38,618 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:23:38,634 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:23:38,665 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:00,965 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:00,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:00,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:00,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:00,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:24:00,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:24:00,997 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:01,012 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:01,044 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:03,723 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:03,755 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:03,755 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:03,755 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:03,755 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:24:03,755 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:24:03,755 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:03,770 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:03,802 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:06,915 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:06,947 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:06,947 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:06,947 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:06,947 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:24:06,947 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:24:06,947 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:06,962 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:06,993 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:08,561 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:08,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:08,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:08,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:08,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:24:08,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:24:08,592 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:24:08,608 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:08,639 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:35,808 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:24:41,430 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:25:41,111 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:25:44,289 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:25:44,289 [INFO] Gpio:238 - dependency for GPIO [SPI1, TIM1, TIM8, USART1, USART6]
+2019-08-20 13:25:45,730 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:25:45,745 [INFO] DmaTabbedPanel:192 - Cannot restore the selected Tab for DMA
+2019-08-20 13:25:55,002 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:25:55,017 [INFO] Gpio:238 - dependency for GPIO [SPI1, TIM1, TIM8, USART1, USART6]
+2019-08-20 13:25:56,080 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:25:59,275 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:26:01,964 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:26:04,366 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:26:13,535 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:26:13,536 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:26:13,537 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:26:13,538 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:26:13,538 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:26:13,539 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:26:13,555 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:26:13,563 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:26:32,552 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:26:32,552 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:26:32,552 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:26:32,552 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:26:32,552 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:26:32,552 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:26:32,567 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:26:32,583 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:28:23,330 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:28:33,511 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:28:33,542 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:28:33,542 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:28:33,542 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:28:33,542 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:28:33,542 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:28:33,558 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:28:33,558 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:28:33,605 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:31:02,627 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:31:02,674 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:02,674 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:02,674 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:02,674 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:31:02,674 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:31:02,689 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:02,736 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:31:19,754 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:19,754 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:19,754 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:19,754 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:31:19,754 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:31:19,754 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:19,817 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:31:23,248 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:23,249 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:23,250 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:23,251 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:31:23,252 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:31:23,253 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:31:23,315 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:32:18,828 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:32:18,864 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:32:18,865 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:32:18,866 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:32:18,867 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:32:18,868 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:32:18,869 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:32:18,927 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:32:41,949 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:32:41,989 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:32:41,990 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:32:41,992 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:32:41,993 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:32:41,994 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:32:41,995 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:32:42,076 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:33:26,759 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Clock Configuration
+2019-08-20 13:33:48,139 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Project Manager
+2019-08-20 13:33:53,255 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Tools
+2019-08-20 13:33:55,137 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Project Manager
+2019-08-20 13:33:58,298 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Pinout & Configuration
+2019-08-20 13:46:42,627 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:46:47,702 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:46:59,406 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Project Manager
+2019-08-20 13:47:22,180 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Clock Configuration
+2019-08-20 13:47:53,869 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:47:56,645 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:48:20,635 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:48:22,691 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 13:48:42,364 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 422994512 Bytes (1073741824)
+2019-08-20 13:48:42,366 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:48:42,367 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:48:42,368 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:48:42,369 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:48:42,370 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:48:42,371 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:48:55,972 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Project Manager
+2019-08-20 13:49:40,880 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Tools
+2019-08-20 13:49:48,210 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Project Manager
+2019-08-20 13:50:18,664 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 580403032 Bytes (1073741824)
+2019-08-20 13:50:18,666 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:50:18,667 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:50:18,668 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:50:18,669 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:50:18,669 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:50:18,670 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:50:18,778 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: SPI
+2019-08-20 13:50:18,778 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: TIM1_8
+2019-08-20 13:50:18,778 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: SYS
+2019-08-20 13:50:18,778 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: NVIC
+2019-08-20 13:50:18,778 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: USART
+2019-08-20 13:50:18,778 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: USART
+2019-08-20 13:50:18,778 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: TIM1_8
+2019-08-20 13:50:18,779 [INFO] CodeGenerator:583 - code generatio: config db path: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\
+2019-08-20 13:50:18,943 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\license.tmp_save
+2019-08-20 13:50:18,999 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\license.tmp
+2019-08-20 13:50:19,140 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\gpio.tmp_save
+2019-08-20 13:50:19,218 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\gpio.tmp
+2019-08-20 13:50:19,448 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 13:50:19,450 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2019-08-20 13:50:19,450 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:50:19,452 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 13:50:19,453 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2019-08-20 13:50:19,454 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:50:19,455 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 13:50:19,456 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2019-08-20 13:50:19,457 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:50:19,459 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 13:50:19,460 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2019-08-20 13:50:19,461 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:50:19,463 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2019-08-20 13:50:19,463 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:50:19,517 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_it.c_save
+2019-08-20 13:50:19,630 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_it.c
+2019-08-20 13:50:19,660 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_it.h_save
+2019-08-20 13:50:19,729 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_it.h
+2019-08-20 13:50:19,787 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_hal_msp.c_save
+2019-08-20 13:50:19,913 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_hal_msp.c
+2019-08-20 13:50:19,934 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\system.tmp_save
+2019-08-20 13:50:19,978 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\system.tmp
+2019-08-20 13:50:20,017 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_hal_conf.h_save
+2019-08-20 13:50:20,101 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_hal_conf.h
+2019-08-20 13:50:20,158 [WARN] IPConfigManager:2562 - IP not found : TIM
+2019-08-20 13:50:20,159 [WARN] IPConfigManager:2562 - IP not found : gpio
+2019-08-20 13:50:20,159 [WARN] CodeGenerator:2617 - IP not found : TIM
+2019-08-20 13:50:20,159 [WARN] CodeGenerator:2617 - IP not found : gpio
+2019-08-20 13:50:20,188 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\main.h_save
+2019-08-20 13:50:20,262 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\main.h
+2019-08-20 13:50:20,292 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\main.c_save
+2019-08-20 13:50:20,438 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\main.c
+2019-08-20 13:50:21,906 [INFO] ProjectBuilder:1570 - Time for Copy HAL[1] : 489mS.
+2019-08-20 13:50:21,907 [INFO] ProjectBuilder:2138 - Project Generator version: 3.4.0
+2019-08-20 13:50:22,088 [INFO] ConfigFileManager:879 - The Die is : DIE441
+2019-08-20 13:50:22,090 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] configName ==Arm Cortex-M4
+2019-08-20 13:50:22,166 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] memory ==name="RAM" access="xrw" start="0x20000000" size="256"
+2019-08-20 13:50:22,167 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] memory ==name="FLASH" access="rx" start="0x8000000" size="512"
+2019-08-20 13:50:22,455 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] namefile= STM32CubeIDE
+2019-08-20 13:50:22,456 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============update
+2019-08-20 13:50:23,315 [INFO] ProjectBuilder:2232 - Time for Generating toolchain IDE Files: 1408mS.
+2019-08-20 13:50:23,316 [INFO] ProjectBuilder:1461 - Time for Copy CMSIS : 1mS.
+2019-08-20 13:50:23,319 [INFO] ProjectBuilder:1461 - Time for Copy CMSIS : 0mS.
+2019-08-20 13:50:40,311 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Clock Configuration
+2019-08-20 13:50:48,194 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Pinout & Configuration
+2019-08-20 13:51:07,132 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Clock Configuration
+2019-08-20 13:51:08,020 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Tab changed to: Project Manager
+2019-08-20 13:51:54,099 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 478144888 Bytes (1073741824)
+2019-08-20 13:51:54,101 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:51:54,102 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:51:54,103 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:51:54,104 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:51:54,105 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isRootSelectionSupported
+2019-08-20 13:51:54,105 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============isUnderRootDefaultMode
+2019-08-20 13:51:54,220 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: SPI
+2019-08-20 13:51:54,220 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: TIM1_8
+2019-08-20 13:51:54,220 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: SYS
+2019-08-20 13:51:54,220 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: NVIC
+2019-08-20 13:51:54,220 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: USART
+2019-08-20 13:51:54,221 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: USART
+2019-08-20 13:51:54,221 [INFO] BlockDiagram:1862 - set Specific Code input for plugin: TIM1_8
+2019-08-20 13:51:54,222 [INFO] CodeGenerator:583 - code generatio: config db path: C:\ST\STM32CubeIDE_1.0.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.3.0.201907110903\\db\
+2019-08-20 13:51:54,360 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\license.tmp_save
+2019-08-20 13:51:54,404 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\license.tmp
+2019-08-20 13:51:54,478 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\gpio.tmp_save
+2019-08-20 13:51:54,528 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\gpio.tmp
+2019-08-20 13:51:54,659 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 13:51:54,660 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SPI
+2019-08-20 13:51:54,661 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:51:54,662 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 13:51:54,662 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for SYS
+2019-08-20 13:51:54,663 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:51:54,664 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 13:51:54,664 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for TIM
+2019-08-20 13:51:54,665 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:51:54,666 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2019-08-20 13:51:54,667 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2019-08-20 13:51:54,667 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:51:54,669 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2019-08-20 13:51:54,669 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2019-08-20 13:51:54,699 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_it.c_save
+2019-08-20 13:51:54,779 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_it.c
+2019-08-20 13:51:54,798 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_it.h_save
+2019-08-20 13:51:54,850 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_it.h
+2019-08-20 13:51:54,877 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_hal_msp.c_save
+2019-08-20 13:51:54,991 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\stm32f4xx_hal_msp.c
+2019-08-20 13:51:55,010 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\system.tmp_save
+2019-08-20 13:51:55,055 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\MXTmpFiles\system.tmp
+2019-08-20 13:51:55,083 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_hal_conf.h_save
+2019-08-20 13:51:55,161 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\stm32f4xx_hal_conf.h
+2019-08-20 13:51:55,172 [WARN] IPConfigManager:2562 - IP not found : TIM
+2019-08-20 13:51:55,172 [WARN] IPConfigManager:2562 - IP not found : gpio
+2019-08-20 13:51:55,172 [WARN] CodeGenerator:2617 - IP not found : TIM
+2019-08-20 13:51:55,172 [WARN] CodeGenerator:2617 - IP not found : gpio
+2019-08-20 13:51:55,196 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\main.h_save
+2019-08-20 13:51:55,253 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Inc\main.h
+2019-08-20 13:51:55,279 [INFO] CodeEngine:190 - oldGeneratedFile, C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\main.c_save
+2019-08-20 13:51:55,412 [INFO] CodeEngine:208 - Generated code: C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\test\Src\main.c
+2019-08-20 13:51:56,018 [INFO] ProjectBuilder:1570 - Time for Copy HAL[1] : 109mS.
+2019-08-20 13:51:56,019 [INFO] ProjectBuilder:2138 - Project Generator version: 3.4.0
+2019-08-20 13:51:56,182 [INFO] ConfigFileManager:879 - The Die is : DIE441
+2019-08-20 13:51:56,184 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] configName ==Arm Cortex-M4
+2019-08-20 13:51:56,259 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] memory ==name="RAM" access="xrw" start="0x20000000" size="256"
+2019-08-20 13:51:56,260 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] memory ==name="FLASH" access="rx" start="0x8000000" size="512"
+2019-08-20 13:51:56,358 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] namefile= STM32CubeIDE
+2019-08-20 13:51:56,359 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] method name===============update
+2019-08-20 13:51:56,915 [INFO] ProjectBuilder:2232 - Time for Generating toolchain IDE Files: 896mS.
+2019-08-20 13:51:56,917 [INFO] ProjectBuilder:1461 - Time for Copy CMSIS : 1mS.
+2019-08-20 13:51:56,919 [INFO] ProjectBuilder:1461 - Time for Copy CMSIS : 0mS.
+2019-08-20 13:56:34,730 [INFO] BlockDiagram:1818 - stop enableDisableButtons
+2019-08-20 14:34:28,999 [INFO] Activator:176 - 
+
+
+2019-08-20 14:34:28,999 [INFO] Activator:177 - !SESSION log4j initialized
