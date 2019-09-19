@@ -80,6 +80,7 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 
+
   /* USER CODE END 1 */
   
 
@@ -107,6 +108,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
+  FPGA_Programming();
 
   /* USER CODE END 2 */
 
@@ -543,6 +545,14 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+/* Function to program FPGA on board
+ * This function must be run every time because FPGA does not hold its programming
+ */
+static void FPGA_Programming(void){
+
+}
+
 
 /* USER CODE END 4 */
 

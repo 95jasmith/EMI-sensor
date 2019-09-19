@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Designs\EMI_sensor_control_Rev1.0\EMI_sensor_control_Rev1.0.sch</source>
-    <date>8/13/2019 3:05:02 PM</date>
+    <date>9/16/2019 8:03:41 AM</date>
     <tool>Eeschema (5.1.2)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -2776,7 +2776,7 @@
       <node ref="C10" pin="1"/>
       <node ref="U6" pin="7"/>
       <node ref="SW1" pin="1"/>
-      <node ref="D3" pin="A"/>
+      <node ref="D3" pin="K"/>
       <node ref="C5" pin="1"/>
       <node ref="C3" pin="1"/>
       <node ref="C4" pin="1"/>
@@ -3398,9 +3398,9 @@
     <net code="161" name="Net-(SW1-Pad2)">
       <node ref="SW1" pin="2"/>
     </net>
-    <net code="162" name="Net-(D3-PadK)">
+    <net code="162" name="Net-(D3-PadA)">
       <node ref="J4" pin="1A"/>
-      <node ref="D3" pin="K"/>
+      <node ref="D3" pin="A"/>
       <node ref="J4" pin="1B"/>
     </net>
     <net code="163" name="Net-(C12-Pad1)">

@@ -1,0 +1,25 @@
+14:47:51 **** Build of configuration Debug for project EMI_Sensor ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F412Zx -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'FPGA_Programming':
+../Src/main.c:452:12: warning: array subscript has type 'char' [-Wchar-subscripts]
+   dummyBits[i] = 0b01010101;
+            ^
+At top level:
+../Src/main.c:447:13: warning: 'FPGA_Programming' defined but not used [-Wunused-function]
+ static void FPGA_Programming(void){
+             ^~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "EMI_Sensor.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\STM32\EMI_Sensor\STM32F412ZETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EMI_Sensor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EMI_Sensor.elf
+ 
+arm-none-eabi-objdump -h -S  EMI_Sensor.elf  > "EMI_Sensor.list"
+arm-none-eabi-size   EMI_Sensor.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10888	     20	   1916	  12824	   3218	EMI_Sensor.elf
+Finished building: default.size.stdout
+ 
+Finished building: EMI_Sensor.list
+ 
+
+14:47:59 Build Finished. 0 errors, 2 warnings. (took 8s.578ms)
+
