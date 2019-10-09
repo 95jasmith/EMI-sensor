@@ -1,0 +1,342 @@
+EESchema Schematic File Version 4
+LIBS:EMI_sensor_control_Rev2.0-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 6 9
+Title "Pancreas EMI Conductivity Meter "
+Date ""
+Rev "1.02"
+Comp "Kansas State University "
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3.3V #PWR074
+U 1 1 5D48A016
+P 9800 4250
+F 0 "#PWR074" H 9800 4100 50  0001 C CNN
+F 1 "+3.3V" V 9815 4378 50  0000 L CNN
+F 2 "" H 9800 4250 50  0001 C CNN
+F 3 "" H 9800 4250 50  0001 C CNN
+	1    9800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR075
+U 1 1 5D3A824C
+P 6150 7700
+F 0 "#PWR075" H 6150 7450 50  0001 C CNN
+F 1 "GND" H 6155 7527 50  0000 C CNN
+F 2 "" H 6150 7700 50  0001 C CNN
+F 3 "" H 6150 7700 50  0001 C CNN
+	1    6150 7700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9000 4800 0    50   Input ~ 0
+FPGA_Config
+Text GLabel 9000 6400 0    50   Input ~ 0
+FPGA_SS
+Text GLabel 9000 6200 0    50   Input ~ 0
+FPGA_MOSI
+Text GLabel 9000 6100 0    50   Input ~ 0
+FPGA_MISO
+Text GLabel 9000 6300 0    50   Input ~ 0
+FPGA_CLK
+Text GLabel 10700 4800 2    50   Input ~ 0
+FPGA_CDONE
+Wire Wire Line
+	10700 4800 10500 4800
+$Comp
+L Device:R R32
+U 1 1 5D4938FC
+P 8300 7650
+F 0 "R32" V 8300 7650 50  0000 C CNN
+F 1 "R 100" V 8184 7650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8230 7650 50  0001 C CNN
+F 3 "~" H 8300 7650 50  0001 C CNN
+	1    8300 7650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5D49468F
+P 8000 7850
+F 0 "C36" H 8115 7896 50  0000 L CNN
+F 1 "C 10u" H 8115 7805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 8038 7700 50  0001 C CNN
+F 3 "~" H 8000 7850 50  0001 C CNN
+	1    8000 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C35
+U 1 1 5D4949B4
+P 7550 7850
+F 0 "C35" H 7665 7896 50  0000 L CNN
+F 1 "C 10u" H 7665 7805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7588 7700 50  0001 C CNN
+F 3 "~" H 7550 7850 50  0001 C CNN
+	1    7550 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 7650 8000 7650
+Wire Wire Line
+	8000 7650 8000 7700
+Wire Wire Line
+	7550 7650 7550 7700
+Wire Wire Line
+	7550 8050 7550 8000
+$Comp
+L power:+1V2 #PWR077
+U 1 1 5D49B6CD
+P 8650 7650
+F 0 "#PWR077" H 8650 7500 50  0001 C CNN
+F 1 "+1V2" V 8665 7778 50  0000 L CNN
+F 2 "" H 8650 7650 50  0001 C CNN
+F 3 "" H 8650 7650 50  0001 C CNN
+	1    8650 7650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 7650 8450 7650
+Connection ~ 8000 7650
+Wire Wire Line
+	7550 7650 8000 7650
+Wire Wire Line
+	8000 8050 8000 8000
+Wire Wire Line
+	7550 8050 7800 8050
+$Comp
+L power:+1V2 #PWR069
+U 1 1 5D49EA19
+P 7750 7550
+F 0 "#PWR069" H 7750 7400 50  0001 C CNN
+F 1 "+1V2" V 7765 7678 50  0000 L CNN
+F 2 "" H 7750 7550 50  0001 C CNN
+F 3 "" H 7750 7550 50  0001 C CNN
+	1    7750 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 7550 7200 7550
+$Comp
+L power:+2V5 #PWR070
+U 1 1 5D4A038B
+P 7700 4250
+F 0 "#PWR070" H 7700 4100 50  0001 C CNN
+F 1 "+2V5" V 7700 4400 50  0000 L CNN
+F 2 "" H 7700 4250 50  0001 C CNN
+F 3 "" H 7700 4250 50  0001 C CNN
+	1    7700 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 5400 0    50   Input ~ 0
+DRDY
+Text GLabel 7000 5700 0    50   Input ~ 0
+SCO
+Text GLabel 7000 6200 0    50   Input ~ 0
+SDI
+Text GLabel 7000 6000 0    50   Input ~ 0
+FSI
+Text GLabel 7000 5900 0    50   Input ~ 0
+FSOr
+Text GLabel 7000 5500 0    50   Input ~ 0
+SDLb
+Wire Wire Line
+	7300 5500 7000 5500
+Wire Wire Line
+	7000 5900 7300 5900
+Wire Wire Line
+	7000 5400 7300 5400
+Wire Wire Line
+	7300 5700 7000 5700
+Wire Wire Line
+	7000 6200 7300 6200
+Wire Wire Line
+	7300 6000 7000 6000
+$Comp
+L power:+2V5 #PWR068
+U 1 1 5D4F9F83
+P 7750 7450
+F 0 "#PWR068" H 7750 7300 50  0001 C CNN
+F 1 "+2V5" V 7765 7578 50  0000 L CNN
+F 2 "" H 7750 7450 50  0001 C CNN
+F 3 "" H 7750 7450 50  0001 C CNN
+	1    7750 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 7450 7750 7450
+Text GLabel 9000 5800 0    50   Input ~ 0
+TX_On
+Wire Wire Line
+	9000 5800 9300 5800
+$Comp
+L power:+3.3V #PWR072
+U 1 1 5D50E3DF
+P 5500 4800
+F 0 "#PWR072" H 5500 4650 50  0001 C CNN
+F 1 "+3.3V" V 5500 4900 50  0000 L CNN
+F 2 "" H 5500 4800 50  0001 C CNN
+F 3 "" H 5500 4800 50  0001 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5D50E851
+P 10500 5050
+F 0 "R31" V 10500 5000 50  0000 L CNN
+F 1 "R 1M" H 10570 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10430 5050 50  0001 C CNN
+F 3 "~" H 10500 5050 50  0001 C CNN
+	1    10500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR071
+U 1 1 5D50EE0A
+P 10500 5300
+F 0 "#PWR071" H 10500 5150 50  0001 C CNN
+F 1 "+3.3V" H 10515 5473 50  0000 C CNN
+F 2 "" H 10500 5300 50  0001 C CNN
+F 3 "" H 10500 5300 50  0001 C CNN
+	1    10500 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 4800 10500 4900
+Connection ~ 10500 4800
+Wire Wire Line
+	10500 4800 10300 4800
+Wire Wire Line
+	10500 5200 10500 5300
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U10
+U 2 1 5D4F12ED
+P 9800 5500
+F 0 "U10" H 9800 4425 50  0000 C CNN
+F 1 "ICE40UP5K-SG48ITR" H 9800 4334 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 9800 4150 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 9400 6500 50  0001 C CNN
+	2    9800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U10
+U 3 1 5D4F2603
+P 5500 5650
+F 0 "U10" H 5830 5753 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 5830 5662 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 5500 4300 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 5100 6650 50  0001 C CNN
+	3    5500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U10
+U 4 1 5D4F3454
+P 6800 7550
+F 0 "U10" V 6433 7550 50  0000 C CNN
+F 1 "ICE40UP5K-SG48ITR" V 6524 7550 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 6800 6200 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 6400 8550 50  0001 C CNN
+	4    6800 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 7550 6150 7550
+Wire Wire Line
+	6150 7550 6150 7700
+Wire Wire Line
+	7550 7650 7200 7650
+Connection ~ 7550 7650
+$Comp
+L power:GND #PWR067
+U 1 1 5D505363
+P 7800 8200
+F 0 "#PWR067" H 7800 7950 50  0001 C CNN
+F 1 "GND" H 7805 8027 50  0000 C CNN
+F 2 "" H 7800 8200 50  0001 C CNN
+F 3 "" H 7800 8200 50  0001 C CNN
+	1    7800 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 8050 7800 8200
+Connection ~ 7800 8050
+Wire Wire Line
+	7800 8050 8000 8050
+Text GLabel 7000 5600 0    50   Input ~ 0
+FSOb
+NoConn ~ 5100 5450
+NoConn ~ 5100 5550
+NoConn ~ 5100 5650
+NoConn ~ 5100 5750
+NoConn ~ 5100 5850
+NoConn ~ 5100 5950
+NoConn ~ 5100 6050
+NoConn ~ 5100 6150
+NoConn ~ 7300 6500
+NoConn ~ 9300 5100
+NoConn ~ 9300 5200
+NoConn ~ 9300 5300
+NoConn ~ 9300 5400
+NoConn ~ 9300 5500
+NoConn ~ 9300 5600
+NoConn ~ 9300 5700
+NoConn ~ 9300 5900
+NoConn ~ 9300 6000
+Wire Wire Line
+	5500 4800 5500 4950
+Wire Wire Line
+	7700 4250 7700 4400
+Wire Wire Line
+	9800 4250 9800 4400
+Wire Wire Line
+	9000 4800 9300 4800
+Wire Wire Line
+	9000 6100 9300 6100
+Wire Wire Line
+	9300 6200 9000 6200
+Wire Wire Line
+	9000 6300 9300 6300
+Wire Wire Line
+	9300 6400 9000 6400
+Text GLabel 7000 6100 0    50   Input ~ 0
+SDO
+Wire Wire Line
+	7000 6100 7300 6100
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U10
+U 1 1 5D4EFE10
+P 7700 5500
+F 0 "U10" H 8030 5553 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 8030 5462 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 7700 4150 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 7300 6500 50  0001 C CNN
+	1    7700 5500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7300 5000
+Wire Wire Line
+	7000 5600 7300 5600
+Wire Wire Line
+	7300 5800 7000 5800
+Text GLabel 7000 5800 0    50   Input ~ 0
+SDLr
+NoConn ~ 7300 5100
+NoConn ~ 7300 5200
+NoConn ~ 7300 5300
+NoConn ~ 7300 6300
+NoConn ~ 7300 6400
+Text GLabel 7000 4900 0    50   Input ~ 0
+ADCReset
+Wire Wire Line
+	7000 4900 7300 4900
+$EndSCHEMATC
