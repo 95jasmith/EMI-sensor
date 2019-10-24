@@ -1,0 +1,2 @@
+set_io i_Tx_On 20
+set_io SS 16

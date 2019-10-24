@@ -1,0 +1,18 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Toggle_Pin_Test   ########
+===============================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     2                  100 %                
+=================================================
+Total IO PADS in the block Toggle_Pin_Test:	2 (50.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

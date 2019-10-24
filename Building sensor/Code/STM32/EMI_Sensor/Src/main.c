@@ -23,6 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "FPGAImage.h"
+#include "string.h"
 
 /* USER CODE END Includes */
 
@@ -64,11 +66,13 @@ static void MX_USART1_UART_Init(void);
 static void MX_USART6_UART_Init(void);
 /* USER CODE BEGIN PFP */
 static void FPGA_Programming(void);
+void debugPrintln(char *ptr);
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+char successFPGA = 0;
 
 /* USER CODE END 0 */
 
@@ -107,6 +111,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
+  FPGA_Programming();
 
   /* USER CODE END 2 */
 
@@ -115,6 +120,12 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+	  HAL_Delay(1000);
+	  HAL_GPIO_TogglePin(FPGA_SS_GPIO_Port,FPGA_SS_Pin);
+	  debugPrintln("Test:");
+	  if(HAL_GPIO_ReadPin(TX_On_GPIO_Port,TX_On_Pin)){
+		  debugPrintln("toggle");
+	  }
 
     /* USER CODE BEGIN 3 */
   }
@@ -408,17 +419,23 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, TX_On_Pin|ADCSync_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(ADCSync_GPIO_Port, ADCSync_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(FPGA_Config_GPIO_Port, FPGA_Config_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : TX_On_Pin ADCSync_Pin */
-  GPIO_InitStruct.Pin = TX_On_Pin|ADCSync_Pin;
+  /*Configure GPIO pin : TX_On_Pin */
+  GPIO_InitStruct.Pin = TX_On_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(TX_On_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : ADCSync_Pin */
+  GPIO_InitStruct.Pin = ADCSync_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+  HAL_GPIO_Init(ADCSync_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : FPGA_Config_Pin */
   GPIO_InitStruct.Pin = FPGA_Config_Pin;
@@ -437,11 +454,21 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
+void debugPrintln( char *ptr){
+	int len = strlen(ptr);
+	for(int i=0; i<len; i++){
+		ITM_SendChar( (*ptr++) );
+	}
+	ITM_SendChar(10);
+}
+
+
 /* This is a function to program the in cuircuit FPGA
  * This Function must be call once at during Init of uC or FPGA and ADCs will not work!
  * FPGA Config file must be loaded onto uC and Config file must not set to Cold or Warm boot
  * for more information see: Lattice Semiconductor FPGA-TN-02001-3.1, section 13
  */
+
 static void FPGA_Programming(void){
 
 	char FPGA_TimeOut = 0; // Error timeout
@@ -464,17 +491,26 @@ static void FPGA_Programming(void){
 	HAL_GPIO_WritePin(FPGA_SS_GPIO_Port,FPGA_SS_Pin, GPIO_PIN_SET);
 	HAL_SPI_Transmit(&hspi1, dummyBits, 1, 50);
 	// SEND FPGA CONFIG FILE
-
-	// Might need to set SS high not sure if that is handled by HAL function
+	HAL_GPIO_WritePin(FPGA_SS_GPIO_Port,FPGA_SS_Pin, GPIO_PIN_RESET);
+	for (int i = 0; i <= FPGAImSize; i++){
+		HAL_SPI_Transmit(&hspi1, FPGAIma[i], 1, 50);
+	}
+	HAL_GPIO_WritePin(FPGA_SS_GPIO_Port,FPGA_SS_Pin, GPIO_PIN_SET);
 	while(!HAL_GPIO_ReadPin(FPGA_CDone_GPIO_Port, FPGA_CDone_Pin) && FPGA_TimeOut <= 6){ // wait for CDone to go high
 		HAL_Delay(1);
 		if (FPGA_TimeOut == 5){
 			//Print error message to debugger
+			debugPrintln("Error FPGA");
 		}
 		FPGA_TimeOut++;
 	}
 	if (FPGA_TimeOut < 6){
-		HAL_SPI_Transmit(&hspi1, dummyBits, 7, 50 );
+		HAL_GPIO_WritePin(FPGA_SS_GPIO_Port,FPGA_SS_Pin, GPIO_PIN_RESET);
+		HAL_SPI_Transmit(&hspi1, dummyBits, 7, HAL_MAX_DELAY );
+		HAL_GPIO_WritePin(FPGA_SS_GPIO_Port,FPGA_SS_Pin, GPIO_PIN_SET);
+		// Print success message
+		successFPGA = 1;
+		debugPrintln("FPGA success");
 	}
 
 }

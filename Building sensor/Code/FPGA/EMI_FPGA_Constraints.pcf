@@ -17,7 +17,7 @@ set_io i_Clk 15
 
 ### General Input
 set_io i_Tx_On 20
-set_io i_ADC_Reset 25
+set_io o_ADC_Reset 25
 
 
 ### ADC Both

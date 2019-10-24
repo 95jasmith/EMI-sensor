@@ -1,0 +1,3 @@
+﻿  converter.c
+C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\File conveter\bin_to_cfile\bin_to_cfile\converter.c(35,9): warning C4129:  '[': unrecognized character escape sequence
+  bin_to_cfile.vcxproj -> C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\File conveter\bin_to_cfile\Debug\bin_to_cfile.exe

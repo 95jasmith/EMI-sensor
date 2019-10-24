@@ -1,0 +1,25 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 17:03:11
+
+* File Generated:     Oct 15 2019 14:40:26
+
+* Purpose:            Detailed routing info for each net
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Net : SS_c
+T_24_0_wire_io_cluster/io_1/D_IN_0
+T_23_0_span4_horz_r_2
+T_19_0_span4_horz_r_2
+T_19_0_lc_trk_g1_2
+T_19_0_wire_io_cluster/io_1/D_OUT_0
+
+End 
+

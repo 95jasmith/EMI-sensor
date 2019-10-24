@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2017.08\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2017.08\synpbase
+Hostname:    DESKTOP-E7PTEOJ
+Date:        Tue Oct 15 14:39:20 2019
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch EMI_Sensor_FPGA_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA\EMI_Sensor_FPGA_Implmnt\EMI_Sensor_FPGA.srr"
+Running: EMI_Sensor_FPGA_Implmnt in foreground
+
+Running EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+
+Running: compile (Compile) on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+# Tue Oct 15 14:39:21 2019
+
+Running: compile_flow (Compile Process) on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+# Tue Oct 15 14:39:21 2019
+
+Running: compiler (Compile Input) on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+# Tue Oct 15 14:39:21 2019
+Copied C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA\EMI_Sensor_FPGA_Implmnt\synwork\EMI_Sensor_FPGA_comp.srs to C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA\EMI_Sensor_FPGA_Implmnt\EMI_Sensor_FPGA.srs
+
+compiler completed
+# Tue Oct 15 14:39:26 2019
+
+Return Code: 0
+Run Time:00h:00m:05s
+
+Running: multi_srs_gen (Multi-srs Generator) on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+# Tue Oct 15 14:39:26 2019
+
+multi_srs_gen completed
+# Tue Oct 15 14:39:27 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA\EMI_Sensor_FPGA_Implmnt\synwork\EMI_Sensor_FPGA_mult.srs to C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA\EMI_Sensor_FPGA_Implmnt\EMI_Sensor_FPGA.srs
+Complete: Compile Process on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+
+Running: premap (Pre-mapping) on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+# Tue Oct 15 14:39:27 2019
+
+premap completed
+# Tue Oct 15 14:39:31 2019
+
+Return Code: 0
+Run Time:00h:00m:04s
+Complete: Compile on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+
+Running: map (Map) on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+# Tue Oct 15 14:39:31 2019
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+# Tue Oct 15 14:39:31 2019
+Copied C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA\EMI_Sensor_FPGA_Implmnt\synwork\EMI_Sensor_FPGA_m.srm to C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA\EMI_Sensor_FPGA_Implmnt\EMI_Sensor_FPGA.srm
+
+fpga_mapper completed
+# Tue Oct 15 14:39:37 2019
+
+Return Code: 0
+Run Time:00h:00m:06s
+Complete: Map on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+Complete: Logic Synthesis on EMI_Sensor_FPGA_syn|EMI_Sensor_FPGA_Implmnt
+
+exit status=0
+
+exit status=0
+

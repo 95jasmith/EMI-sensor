@@ -1,0 +1,3 @@
+set_location GND -1 -1 -1 # GND
+set_io SS_ibuf 24 0 1 # ICE_IO
+set_io i_Tx_On_obuf 19 0 1 # ICE_IO

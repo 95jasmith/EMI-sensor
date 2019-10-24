@@ -2,6 +2,7 @@
 #-- Project file C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA\EMI_Sensor_FPGA_syn.prj
 #project files
 
+add_file -verilog -lib work "../Toggle_Pin_Test.v" 
 #implementation: "EMI_Sensor_FPGA_Implmnt"
 impl -add EMI_Sensor_FPGA_Implmnt -type fpga
 

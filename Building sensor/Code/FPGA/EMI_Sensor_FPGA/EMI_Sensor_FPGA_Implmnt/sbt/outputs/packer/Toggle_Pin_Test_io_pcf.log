@@ -1,0 +1,2 @@
+OUTPUT i_Tx_On 	 location (19, 0, 1) 	 20 	 
+INPUT  SS 	 location (24, 0, 1) 	 16 	 

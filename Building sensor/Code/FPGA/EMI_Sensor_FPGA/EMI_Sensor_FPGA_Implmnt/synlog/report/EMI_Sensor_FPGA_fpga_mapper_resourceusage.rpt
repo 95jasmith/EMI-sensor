@@ -1,0 +1,17 @@
+---------------------------------------
+Resource Usage Report for Toggle_Pin_Test 
+
+Mapping to part: ice40up5ksg48
+Cell usage:
+SB_LUT4         0 uses
+
+I/O ports: 2
+I/O primitives: 2
+SB_IO          2 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 0 (0%)
+

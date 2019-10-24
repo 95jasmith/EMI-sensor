@@ -1,0 +1,3 @@
+set_location GND -1 -1 -1 #GND
+set_io i_Tx_On 20
+set_io SS 16

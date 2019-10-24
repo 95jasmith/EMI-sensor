@@ -1,0 +1,6 @@
+9:10:39 AM
+Unrecognizable name Toggle_Pin_Test
+Lpc file:  "C:\Users\97jsm\Documents\GitHub\EMI-sensor\Building sensor\Code\FPGA\EMI_Sensor_FPGA/FGPA_SPI_1.lpc" 
+cmd:  "C:\lscc\iCEcube2.2017.08\LSE\bin\nt\ipgen.exe" 
+arguments: "-n FGPA_SPI_1 -lang verilog -arch ICE40UP -type serialbus -freq 48 -i2c none -i2c_general_call_enable none -i2c_wakeup_enable none -i2c_iobuffer both -i2c_rate_left 100 -i2c_rate_right 100 -i2c_addr_left 10000 -i2c_addr_right 10000 -i2c_arbitration_lost none -i2c_txrx_ready none -i2c_overrun none -i2c_general_call none -i2c_sda_input both -i2c_sda_output none -i2c_scl_input none -spi right -spi_slave both -spi_master none -spi_rate_left 1 -spi_rate_right 1 -spi_cs_left 1 -spi_cs_right 1 -spi_tx_ready right -spi_tx_overrun right -spi_rx_ready right -spi_rx_overrun right -spi_wakeup_enable none -spi_lsb_first none -spi_phase_adj none -spi_inv_clk none -spi_hand_shake none -spi_iobuffer both" 
+1:56:34 PM
