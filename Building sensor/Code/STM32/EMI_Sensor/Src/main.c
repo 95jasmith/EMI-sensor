@@ -67,12 +67,16 @@ static void MX_USART6_UART_Init(void);
 /* USER CODE BEGIN PFP */
 static void FPGA_Programming(void);
 void debugPrintln(char *ptr);
+void setWidthTxOne( char width );
+void setWidthTxTwo( char width );
+
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 char successFPGA = 0;
+char duty = 0;
 
 /* USER CODE END 0 */
 
@@ -112,6 +116,10 @@ int main(void)
   MX_USART6_UART_Init();
   /* USER CODE BEGIN 2 */
   FPGA_Programming();
+  HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim8,TIM_CHANNEL_3);
+  htim1.Instance->CCR1 = 64;
+  htim8.Instance->CCR3 = 55;
 
   /* USER CODE END 2 */
 
@@ -120,12 +128,21 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  HAL_Delay(1000);
-	  HAL_GPIO_TogglePin(FPGA_SS_GPIO_Port,FPGA_SS_Pin);
-	  debugPrintln("Test:");
-	  if(HAL_GPIO_ReadPin(TX_On_GPIO_Port,TX_On_Pin)){
-		  debugPrintln("toggle");
+	  //HAL_Delay(1000);
+	  //HAL_GPIO_TogglePin(FPGA_SS_GPIO_Port,FPGA_SS_Pin);
+	  //HAL_GPIO_TogglePin(testToggle_GPIO_Port,testToggle_Pin);
+	  debugPrintln("Test: 1");
+	  //if(HAL_GPIO_ReadPin(TX_On_GPIO_Port,TX_On_Pin)){
+	//	  debugPrintln("toggle");
+	 // }
+	  while(duty<255){
+		//  htim1.Instance->CCR1 = duty;
+		 // htim8.Instance->CCR3 = duty;
+		  duty +=20;
+		  debugPrintln("Test: 2");
+		  HAL_Delay(500);
 	  }
+	  duty = 0;
 
     /* USER CODE BEGIN 3 */
   }
@@ -228,9 +245,9 @@ static void MX_TIM1_Init(void)
 
   /* USER CODE END TIM1_Init 1 */
   htim1.Instance = TIM1;
-  htim1.Init.Prescaler = 0;
-  htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim1.Init.Period = 0;
+  htim1.Init.Prescaler = 350;
+  htim1.Init.CounterMode = TIM_COUNTERMODE_DOWN;
+  htim1.Init.Period = 120;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim1.Init.RepetitionCounter = 0;
   htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
@@ -293,9 +310,9 @@ static void MX_TIM8_Init(void)
 
   /* USER CODE END TIM8_Init 1 */
   htim8.Instance = TIM8;
-  htim8.Init.Prescaler = 0;
+  htim8.Init.Prescaler = 350;
   htim8.Init.CounterMode = TIM_COUNTERMODE_UP;
-  htim8.Init.Period = 0;
+  htim8.Init.Period = 120;
   htim8.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim8.Init.RepetitionCounter = 0;
   htim8.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
@@ -450,6 +467,15 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(FPGA_CDone_GPIO_Port, &GPIO_InitStruct);
 
+  /*Configure GPIO pin : testToggle_Pin */
+  GPIO_InitStruct.Pin = testToggle_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(testToggle_GPIO_Port, &GPIO_InitStruct);
+
+
+
 }
 
 /* USER CODE BEGIN 4 */
@@ -515,6 +541,16 @@ static void FPGA_Programming(void){
 
 }
 
+/* Function to set the Pulse width of the PWM for Tx1 */
+/*
+void setWidthTxOne( char width ){
+	sConfigOC.Pulse = width;
+}
+
+void setWidthTxOne( char width ){
+
+}
+*/
 /* USER CODE END 4 */
 
 /**
@@ -525,7 +561,7 @@ void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
   /* User can add his own implementation to report the HAL error return state */
-
+	debugPrintln("ERROR In Code!");
   /* USER CODE END Error_Handler_Debug */
 }
 

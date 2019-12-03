@@ -1,11 +1,11 @@
-14:57:34 **** Incremental Build of configuration Debug for project EMI_Sensor ****
+13:11:59 **** Incremental Build of configuration Debug for project EMI_Sensor ****
 make -j8 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F412Zx -DDEBUG -c -I../Inc -I../Drivers/CMSIS/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
 ../Src/main.c: In function 'FPGA_Programming':
-../Src/main.c:478:12: warning: array subscript has type 'char' [-Wchar-subscripts]
+../Src/main.c:504:12: warning: array subscript has type 'char' [-Wchar-subscripts]
    dummyBits[i] = 0b01010101;
             ^
-../Src/main.c:496:28: warning: passing argument 2 of 'HAL_SPI_Transmit' makes pointer from integer without a cast [-Wint-conversion]
+../Src/main.c:522:28: warning: passing argument 2 of 'HAL_SPI_Transmit' makes pointer from integer without a cast [-Wint-conversion]
    HAL_SPI_Transmit(&hspi1, FPGAIma[i], 1, 50);
                             ^~~~~~~
 In file included from ../Inc/stm32f4xx_hal_conf.h:352:0,
@@ -21,11 +21,11 @@ Finished building target: EMI_Sensor.elf
 arm-none-eabi-objdump -h -S  EMI_Sensor.elf  > "EMI_Sensor.list"
 arm-none-eabi-size   EMI_Sensor.elf 
    text	   data	    bss	    dec	    hex	filename
- 116640	     20	   1916	 118576	  1cf30	EMI_Sensor.elf
+ 116896	     20	   1916	 118832	  1d030	EMI_Sensor.elf
 Finished building: default.size.stdout
  
 Finished building: EMI_Sensor.list
  
 
-14:57:47 Build Finished. 0 errors, 2 warnings. (took 13s.547ms)
+13:12:02 Build Finished. 0 errors, 2 warnings. (took 2s.702ms)
 

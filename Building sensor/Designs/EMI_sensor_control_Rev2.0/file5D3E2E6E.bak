@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 8
 Title "Pancreas EMI Conductivity Meter "
 Date ""
 Rev "1.02"
@@ -19,12 +19,6 @@ S 5800 1300 3050 1950
 U 5D43B07B
 F0 "ADC Bx" 50
 F1 "file5D43B07A.sch" 50
-$EndSheet
-$Sheet
-S 2500 3550 3050 1950
-U 5D3AC029
-F0 "FPGA" 50
-F1 "file5D3AC028.sch" 50
 $EndSheet
 $Sheet
 S 5800 3550 3050 1950

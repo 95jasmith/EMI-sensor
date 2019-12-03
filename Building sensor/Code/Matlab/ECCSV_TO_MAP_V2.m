@@ -50,8 +50,8 @@ end
 % Takes X and Y coordinate data and converts into meshgrid
 % changing the number in linspace with change the resolution of the Contour
 % map
-xlin = linspace(min(xCoord),max(xCoord),100); 
-ylin = linspace(min(yCoord),max(xCoord),100); 
+xlin = linspace(min(abs(xCoord)),max(abs(xCoord)),1000); 
+ylin = linspace(min(abs(yCoord)),max(abs(yCoord)),1000); 
 [X,Y] = meshgrid(xlin,ylin);
 
 % Finds the Index values for each EC column
@@ -83,7 +83,16 @@ for j = 1:length(ECindex)
     Avg(1,j) = mean(ECData(:,j)); 
     
     % Converts into grid data
-    ECGridData = griddata(xCoord, yCoord, ECData(:,j), X, Y, 'cubic');
+    ECGridData = griddata(abs(xCoord), abs(yCoord), ECData(:,j), X, Y, 'cubic');
+     if ( j ~= length(ECindex))
+        tempFreq = strrep(ECName(1,j),'EC',''); % Pulls out frequency and 
+        tempFreq = strrep(tempFreq,'Hz[mS/m]',''); % converts to int
+        tempFreq = cell2mat(tempFreq);
+        frequency(j) = str2num(tempFreq);
+        skinDepth(j) = sqrt(sqrt(2/((Avg(1,j)/1000)*(4*pi*10^(-7))*2*pi*frequency(j))));
+    else
+        skinDepth(j) = mean(skinDepth);
+    end
     
     % Graphing 
     figure(j)
@@ -92,8 +101,13 @@ for j = 1:length(ECindex)
     if markerPoints ~= 0 % if there where any marks to plot
         scatter(markerPoints(:,1), markerPoints(:,2),'filled', 'r');
     end
-    colorbar
-    title(ECName(j))
+    c = colorbar;
+    c.Label.String = 'Conductivity (mS/m)';
+    if( j ~= length(ECindex))
+        title(['EC Contour Plot at ',num2str(frequency(j)),' Hz and average depth = ',num2str(skinDepth(j)),'(m)'])
+    else
+        title(['Total EC Countour Plot with average depth = ',num2str(skinDepth(j)),'(m)'])
+    end
     
 end
 

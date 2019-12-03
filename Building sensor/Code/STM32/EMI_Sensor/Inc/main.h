@@ -76,6 +76,8 @@ void Error_Handler(void);
 #define FPGA_Config_GPIO_Port GPIOC
 #define FPGA_CDone_Pin GPIO_PIN_5
 #define FPGA_CDone_GPIO_Port GPIOC
+#define testToggle_Pin GPIO_PIN_2
+#define testToggle_GPIO_Port GPIOB
 #define dataOut_Tx_Pin GPIO_PIN_6
 #define dataOut_Tx_GPIO_Port GPIOC
 #define dataOut_Rx_Pin GPIO_PIN_7

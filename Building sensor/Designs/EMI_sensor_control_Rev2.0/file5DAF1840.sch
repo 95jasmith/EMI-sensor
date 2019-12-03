@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 9
+Sheet 6 8
 Title "Pancreas EMI Conductivity Meter "
 Date ""
 Rev "1.02"

@@ -91,6 +91,7 @@ High = [];
 Low = [];
 Avg = [];
 skinDepth = [];
+frequency = [];
 
 for j = 1:length(ECindex)
     % Stores Data and name for each frequency
@@ -101,14 +102,18 @@ for j = 1:length(ECindex)
     High(1,j) = max(ECData(:,j));
     Low(1,j) = min(ECData(:,j));
     Avg(1,j) = mean(ECData(:,j));
-    if ( cell2mat(ECName(j)) ~= "TotalEC[mS/m]")
+    
+    if ( j ~= length(ECindex))
         tempFreq = strrep(ECName(1,j),'EC',''); % Pulls out frequency and 
         tempFreq = strrep(tempFreq,'Hz[mS/m]',''); % converts to int
         tempFreq = cell2mat(tempFreq);
         frequency(j) = str2num(tempFreq);
-        skinDepth(j) = sqrt(2/((Avg(1,j)/1000)*(4*pi*10^(-7))*2*pi*frequency(j)));
+        skinDepth(j) = sqrt(sqrt(2/((Avg(1,j)/1000)*(4*pi*10^(-7))*2*pi*frequency(j))));
+    else
+        skinDepth(j) = mean(skinDepth);
     end
     % Converts into grid data
+    
     ECGridData = griddata(xCoordZero, yCoordZero, ECData(:,j), X, Y, 'cubic');
     
     % Graphing 
