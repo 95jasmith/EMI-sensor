@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CMST3904_TR
+D Bipolar Transistors - BJT 60V 200mA NPN
+K
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMST3904-06.PDF
+$ENDCMP
+#
+#End Doc Library
