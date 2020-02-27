@@ -37,17 +37,6 @@ F 3 "~" H 7700 2550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR082
-U 1 1 5DAFD207
-P 6400 3150
-F 0 "#PWR082" H 6400 2900 50  0001 C CNN
-F 1 "GND" H 6450 3000 50  0000 C CNN
-F 2 "" H 6400 3150 50  0001 C CNN
-F 3 "" H 6400 3150 50  0001 C CNN
-	1    6400 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L 2019-07-16_16-02-38:INA163UA_2K5 U11
 U 1 1 5DAFD20D
 P 4750 4800
@@ -56,17 +45,6 @@ F 1 "INA163UA_2K5" H 5950 5081 60  0000 C CNN
 F 2 "footprints:INA163UA&slash_2K5" H 5950 5040 60  0001 C CNN
 F 3 "" H 4750 4800 60  0000 C CNN
 	1    4750 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2019-07-16_16-02-38:INA163UA_2K5 U13
-U 1 1 5DAFD213
-P 10050 4750
-F 0 "U13" H 11250 5137 60  0000 C CNN
-F 1 "INA163UA_2K5" H 11250 5031 60  0000 C CNN
-F 2 "footprints:INA163UA&slash_2K5" H 11250 4990 60  0001 C CNN
-F 3 "" H 10050 4750 60  0000 C CNN
-	1    10050 4750
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7150 4800
@@ -94,14 +72,6 @@ Wire Wire Line
 	7300 5000 7300 4300
 Wire Wire Line
 	7300 4300 6100 4300
-Text GLabel 7100 3200 3    50   Input ~ 0
-RxCoilsig-
-Text GLabel 6900 3200 3    50   Input ~ 0
-BxCoilsig
-Wire Wire Line
-	7700 3150 7700 2750
-Text GLabel 3700 5100 0    50   Input ~ 0
-RxCoilsig-
 Wire Wire Line
 	7150 5200 7600 5200
 Text GLabel 7400 5600 3    50   Input ~ 0
@@ -118,8 +88,6 @@ F 3 "~" H 7700 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13000 5150 13000 5050
-Wire Wire Line
 	7600 5200 7600 5450
 Wire Wire Line
 	7700 5400 7700 5450
@@ -132,63 +100,8 @@ Wire Wire Line
 	4750 5300 4650 5300
 Wire Wire Line
 	4500 5300 4500 5500
-Text GLabel 3700 5200 0    50   Input ~ 0
-RxCoilsig+
-Text GLabel 7700 3150 3    50   Input ~ 0
-RxCoilsig+
-Text GLabel 12700 5550 3    50   Input ~ 0
+Text GLabel 12950 5550 3    50   Input ~ 0
 BxCoilAmp
-NoConn ~ 12450 4750
-NoConn ~ 10050 4750
-$Comp
-L Device:R R45
-U 1 1 5DAFD26B
-P 11250 4250
-F 0 "R45" V 11250 4250 50  0000 C CNN
-F 1 "R 22ohm" V 11134 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11180 4250 50  0001 C CNN
-F 3 "~" H 11250 4250 50  0001 C CNN
-	1    11250 4250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10050 4950 9950 4950
-Wire Wire Line
-	9950 4950 9950 4250
-Wire Wire Line
-	9950 4250 11100 4250
-Wire Wire Line
-	11400 4250 12550 4250
-Wire Wire Line
-	12550 4250 12550 4950
-Wire Wire Line
-	12550 4950 12450 4950
-$Comp
-L Device:C_Small C43
-U 1 1 5DAFD277
-P 13000 5250
-F 0 "C43" H 13092 5296 50  0000 L CNN
-F 1 "C 100n" H 13092 5205 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 13000 5250 50  0001 C CNN
-F 3 "~" H 13000 5250 50  0001 C CNN
-	1    13000 5250
-	1    0    0    -1  
-$EndComp
-Text GLabel 8900 5050 0    50   Input ~ 0
-BxCoilsig
-Wire Wire Line
-	10050 5250 9950 5250
-Wire Wire Line
-	9800 5250 9800 5400
-Wire Wire Line
-	12450 5250 12700 5250
-Wire Wire Line
-	12700 5250 12700 5350
-Wire Wire Line
-	12450 5350 12700 5350
-Connection ~ 12700 5350
-Wire Wire Line
-	12700 5350 12700 5550
 Wire Wire Line
 	7150 5300 7400 5300
 Wire Wire Line
@@ -199,28 +112,12 @@ Connection ~ 7400 5400
 Wire Wire Line
 	7400 5400 7400 5600
 Wire Wire Line
-	12450 5050 13000 5050
-Connection ~ 13000 5050
-Wire Wire Line
-	13000 5050 13100 5050
-Wire Wire Line
 	7150 5100 7700 5100
 Wire Wire Line
 	7700 5100 7700 5200
 Connection ~ 7700 5100
 Wire Wire Line
 	7700 5100 7800 5100
-Wire Wire Line
-	12450 5150 12850 5150
-Wire Wire Line
-	12850 5150 12850 5400
-Wire Wire Line
-	13000 5350 13000 5400
-Wire Wire Line
-	13000 5400 12850 5400
-Connection ~ 12850 5400
-Wire Wire Line
-	12850 5400 12850 5500
 $Comp
 L 2019-07-11_16-06-15:ADA4096-2ARMZ U12
 U 1 1 5DAFD297
@@ -394,16 +291,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 4800 3850 5100
 Wire Wire Line
-	8900 5050 9050 5050
-Wire Wire Line
 	3850 5100 3950 5100
-Wire Wire Line
-	3700 5200 3850 5200
 Wire Wire Line
 	3950 5500 3850 5500
 Wire Wire Line
 	3850 5500 3850 5200
-Connection ~ 3850 5200
 Wire Wire Line
 	3850 5200 3950 5200
 Wire Wire Line
@@ -414,53 +306,12 @@ Wire Wire Line
 	4250 5500 4350 5500
 Wire Wire Line
 	4350 5500 4350 5200
-$Comp
-L Device:R R41
-U 1 1 5DAFD2FF
-P 9350 4750
-F 0 "R41" V 9143 4750 50  0000 C CNN
-F 1 "R 47" V 9234 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9280 4750 50  0001 C CNN
-F 3 "~" H 9350 4750 50  0001 C CNN
-	1    9350 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L L5
-U 1 1 5DAFD305
-P 9350 5050
-F 0 "L5" V 9540 5050 50  0000 C CNN
-F 1 "L 1.2u" V 9449 5050 50  0000 C CNN
-F 2 "footprints:AISC-1008-1R2G-T" H 9350 5050 50  0001 C CNN
-F 3 "~" H 9350 5050 50  0001 C CNN
-	1    9350 5050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10050 5050 9650 5050
 Wire Wire Line
 	4350 5200 4750 5200
 Connection ~ 4350 5200
 Wire Wire Line
-	9500 4750 9650 4750
-Wire Wire Line
-	9650 4750 9650 5050
-Wire Wire Line
 	4350 5100 4750 5100
 Connection ~ 4350 5100
-Wire Wire Line
-	9500 5050 9650 5050
-Connection ~ 9650 5050
-Wire Wire Line
-	9200 4750 9050 4750
-Wire Wire Line
-	9050 4750 9050 5050
-Wire Wire Line
-	9200 5050 9050 5050
-Connection ~ 9050 5050
-Wire Wire Line
-	3850 5100 3700 5100
-Connection ~ 3850 5100
 $Comp
 L Device:C_Small C37
 U 1 1 5DAFD31A
@@ -647,10 +498,6 @@ Connection ~ 6850 6800
 Wire Wire Line
 	6850 6800 6850 6850
 Wire Wire Line
-	10050 5150 9550 5150
-Wire Wire Line
-	9550 5150 9550 5400
-Wire Wire Line
 	6000 8550 6000 8350
 Connection ~ 6000 8350
 Wire Wire Line
@@ -723,39 +570,6 @@ F 3 "" H 4500 5500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR089
-U 1 1 5DAFD3B0
-P 13100 5050
-F 0 "#PWR089" H 13100 4900 50  0001 C CNN
-F 1 "+5V" V 13115 5178 50  0000 L CNN
-F 2 "" H 13100 5050 50  0001 C CNN
-F 3 "" H 13100 5050 50  0001 C CNN
-	1    13100 5050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:-5V #PWR087
-U 1 1 5DAFD3B6
-P 9800 5400
-F 0 "#PWR087" H 9800 5500 50  0001 C CNN
-F 1 "-5V" H 9815 5573 50  0000 C CNN
-F 2 "" H 9800 5400 50  0001 C CNN
-F 3 "" H 9800 5400 50  0001 C CNN
-	1    9800 5400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR084
-U 1 1 5DAFD3BC
-P 9550 5400
-F 0 "#PWR084" H 9550 5150 50  0001 C CNN
-F 1 "GND" H 9555 5227 50  0000 C CNN
-F 2 "" H 9550 5400 50  0001 C CNN
-F 3 "" H 9550 5400 50  0001 C CNN
-	1    9550 5400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0138
 U 1 1 5E1668B4
 P 7600 5550
@@ -764,17 +578,6 @@ F 1 "GND" H 7605 5377 50  0000 C CNN
 F 2 "" H 7600 5550 50  0001 C CNN
 F 3 "" H 7600 5550 50  0001 C CNN
 	1    7600 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0139
-U 1 1 5E167149
-P 12850 5500
-F 0 "#PWR0139" H 12850 5250 50  0001 C CNN
-F 1 "GND" H 12855 5327 50  0000 C CNN
-F 2 "" H 12850 5500 50  0001 C CNN
-F 3 "" H 12850 5500 50  0001 C CNN
-	1    12850 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -817,51 +620,259 @@ Wire Wire Line
 	4650 5300 4650 5400
 Wire Wire Line
 	4650 5600 4650 5700
-$Comp
-L Device:C_Small C89
-U 1 1 5D537F12
-P 9950 5450
-F 0 "C89" H 10042 5496 50  0000 L CNN
-F 1 "C 100n" H 10042 5405 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 9950 5450 50  0001 C CNN
-F 3 "~" H 9950 5450 50  0001 C CNN
-	1    9950 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 5D537F18
-P 9950 5650
-F 0 "#PWR0117" H 9950 5400 50  0001 C CNN
-F 1 "GND" H 9955 5477 50  0000 C CNN
-F 2 "" H 9950 5650 50  0001 C CNN
-F 3 "" H 9950 5650 50  0001 C CNN
-	1    9950 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9950 5550 9950 5650
-Wire Wire Line
-	9950 5350 9950 5250
-Connection ~ 9950 5250
-Wire Wire Line
-	9950 5250 9800 5250
-Wire Wire Line
-	6900 3200 6900 2950
-Wire Wire Line
-	6900 2950 7100 2950
-Wire Wire Line
-	7100 3200 7100 2950
-Connection ~ 7100 2950
-Wire Wire Line
-	7100 2950 7600 2950
+	7600 2750 7600 2950
 Wire Wire Line
 	6500 2750 6500 2950
 Wire Wire Line
-	6900 2950 6500 2950
-Connection ~ 6900 2950
+	6400 3100 6400 2750
+Text GLabel 7700 3100 3    50   Input ~ 0
+Rx_High
 Wire Wire Line
-	6400 2750 6400 3150
+	7700 2750 7700 3100
+Text GLabel 6400 3100 3    50   Input ~ 0
+Rx_Low
 Wire Wire Line
-	7600 2750 7600 2950
+	6500 2950 7050 2950
+Wire Wire Line
+	3850 5200 3650 5200
+Text GLabel 3650 5100 0    50   Input ~ 0
+Rx_High
+Text GLabel 3650 5200 0    50   Input ~ 0
+Rx_Low
+Wire Wire Line
+	3650 5100 3850 5100
+Text GLabel 7050 3100 3    50   Input ~ 0
+Bx_High
+Wire Wire Line
+	7050 3100 7050 2950
+Connection ~ 7050 2950
+Wire Wire Line
+	7050 2950 7600 2950
+Connection ~ 3850 5200
+Connection ~ 3850 5100
+$Comp
+L 2019-07-16_16-02-38:INA163UA_2K5 U?
+U 1 1 5F3C783D
+P 10300 4750
+F 0 "U?" H 11500 5137 60  0000 C CNN
+F 1 "INA163UA_2K5" H 11500 5031 60  0000 C CNN
+F 2 "footprints:INA163UA&slash_2K5" H 11500 4990 60  0001 C CNN
+F 3 "" H 10300 4750 60  0000 C CNN
+	1    10300 4750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12700 4750
+NoConn ~ 10300 4750
+$Comp
+L Device:R R?
+U 1 1 5F3C7845
+P 11500 4250
+F 0 "R?" V 11500 4250 50  0000 C CNN
+F 1 "R 22ohm" V 11384 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11430 4250 50  0001 C CNN
+F 3 "~" H 11500 4250 50  0001 C CNN
+	1    11500 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10300 4950 10150 4950
+Wire Wire Line
+	10150 4950 10150 4250
+Wire Wire Line
+	10150 4250 11350 4250
+Wire Wire Line
+	12700 4950 12850 4950
+Wire Wire Line
+	12850 4950 12850 4250
+Wire Wire Line
+	12850 4250 11650 4250
+Wire Wire Line
+	12700 5150 13150 5150
+$Comp
+L Device:C_Small C?
+U 1 1 5F3C7853
+P 13250 5250
+F 0 "C?" H 13342 5296 50  0000 L CNN
+F 1 "C 100n" H 13342 5205 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 13250 5250 50  0001 C CNN
+F 3 "~" H 13250 5250 50  0001 C CNN
+	1    13250 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 5150 13150 5400
+Wire Wire Line
+	13250 5350 13250 5400
+Wire Wire Line
+	13250 5400 13150 5400
+Connection ~ 13150 5400
+Wire Wire Line
+	13150 5400 13150 5500
+Wire Wire Line
+	10300 5250 10200 5250
+Wire Wire Line
+	10050 5250 10050 5450
+Wire Wire Line
+	12700 5250 12950 5250
+Wire Wire Line
+	12950 5250 12950 5350
+Wire Wire Line
+	12700 5350 12950 5350
+Connection ~ 12950 5350
+Wire Wire Line
+	12950 5350 12950 5550
+Wire Wire Line
+	12700 5050 13250 5050
+Wire Wire Line
+	13250 5050 13250 5150
+Connection ~ 13250 5050
+Wire Wire Line
+	13250 5050 13350 5050
+$Comp
+L Device:R R?
+U 1 1 5F3C7869
+P 9650 4750
+F 0 "R?" V 9650 4750 50  0000 C CNN
+F 1 "R 47" V 9534 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9580 4750 50  0001 C CNN
+F 3 "~" H 9650 4750 50  0001 C CNN
+	1    9650 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5F3C786F
+P 9650 5050
+F 0 "L?" V 9840 5050 50  0000 C CNN
+F 1 "L 1.2u" V 9749 5050 50  0000 C CNN
+F 2 "footprints:AISC-1008-1R2G-T" H 9650 5050 50  0001 C CNN
+F 3 "~" H 9650 5050 50  0001 C CNN
+	1    9650 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5F3C7875
+P 9650 5150
+F 0 "L?" V 9850 5150 50  0000 C CNN
+F 1 "L 1.2u" V 9750 5150 50  0000 C CNN
+F 2 "footprints:AISC-1008-1R2G-T" H 9650 5150 50  0001 C CNN
+F 3 "~" H 9650 5150 50  0001 C CNN
+	1    9650 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F3C787B
+P 9650 5450
+F 0 "R?" V 9650 5450 50  0000 C CNN
+F 1 "R 47" V 9800 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9580 5450 50  0001 C CNN
+F 3 "~" H 9650 5450 50  0001 C CNN
+	1    9650 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9800 5150 9900 5150
+Wire Wire Line
+	9800 5050 9900 5050
+Wire Wire Line
+	9500 4750 9400 4750
+Wire Wire Line
+	9400 4750 9400 5050
+Wire Wire Line
+	9400 5050 9500 5050
+Wire Wire Line
+	9500 5450 9400 5450
+Wire Wire Line
+	9400 5450 9400 5150
+Wire Wire Line
+	9400 5150 9500 5150
+Wire Wire Line
+	9800 4750 9900 4750
+Wire Wire Line
+	9900 4750 9900 5050
+Wire Wire Line
+	9800 5450 9900 5450
+Wire Wire Line
+	9900 5450 9900 5150
+Wire Wire Line
+	9900 5150 10300 5150
+Connection ~ 9900 5150
+Wire Wire Line
+	9900 5050 10300 5050
+Connection ~ 9900 5050
+$Comp
+L power:+5V #PWR?
+U 1 1 5F3C7891
+P 13350 5050
+F 0 "#PWR?" H 13350 4900 50  0001 C CNN
+F 1 "+5V" V 13365 5178 50  0000 L CNN
+F 2 "" H 13350 5050 50  0001 C CNN
+F 3 "" H 13350 5050 50  0001 C CNN
+	1    13350 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 5F3C7897
+P 10050 5450
+F 0 "#PWR?" H 10050 5550 50  0001 C CNN
+F 1 "-5V" H 10065 5623 50  0000 C CNN
+F 2 "" H 10050 5450 50  0001 C CNN
+F 3 "" H 10050 5450 50  0001 C CNN
+	1    10050 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3C789D
+P 13150 5500
+F 0 "#PWR?" H 13150 5250 50  0001 C CNN
+F 1 "GND" H 13155 5327 50  0000 C CNN
+F 2 "" H 13150 5500 50  0001 C CNN
+F 3 "" H 13150 5500 50  0001 C CNN
+	1    13150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5F3C78A3
+P 10200 5450
+F 0 "C?" H 10292 5496 50  0000 L CNN
+F 1 "C 100n" H 10292 5405 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 10200 5450 50  0001 C CNN
+F 3 "~" H 10200 5450 50  0001 C CNN
+	1    10200 5450
+	1    0    0    -1  
+$EndComp
+Connection ~ 10200 5250
+Wire Wire Line
+	10200 5250 10050 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5F3C78AB
+P 10200 5650
+F 0 "#PWR?" H 10200 5400 50  0001 C CNN
+F 1 "GND" H 10205 5477 50  0000 C CNN
+F 2 "" H 10200 5650 50  0001 C CNN
+F 3 "" H 10200 5650 50  0001 C CNN
+	1    10200 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 5250 10200 5350
+Wire Wire Line
+	10200 5550 10200 5650
+Wire Wire Line
+	9400 5150 9200 5150
+Text GLabel 9200 5050 0    50   Input ~ 0
+Bx_High
+Wire Wire Line
+	9200 5050 9400 5050
+Connection ~ 9400 5150
+Connection ~ 9400 5050
+Text GLabel 9200 5150 0    50   Input ~ 0
+Rx_Low
 $EndSCHEMATC

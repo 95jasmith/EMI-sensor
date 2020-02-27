@@ -1203,4 +1203,28 @@ Text GLabel 8650 6450 3    50   Input ~ 0
 IMon
 Wire Wire Line
 	8650 6450 8650 6150
+Text GLabel 9250 7400 3    50   Input ~ 0
+RSET_CD
+Wire Wire Line
+	9250 7400 9250 7100
+Text GLabel 9100 7400 3    50   Input ~ 0
+RSET_AD
+Wire Wire Line
+	9100 7400 9100 7100
+Text GLabel 8900 7400 3    50   Input ~ 0
+RMOSI
+Text GLabel 9000 7400 3    50   Input ~ 0
+RMISO
+Text GLabel 8800 7400 3    50   Input ~ 0
+RCS
+Text GLabel 8700 7400 3    50   Input ~ 0
+RSCK
+Wire Wire Line
+	8700 7250 8700 7400
+Wire Wire Line
+	8800 7250 8800 7400
+Wire Wire Line
+	8900 7250 8900 7400
+Wire Wire Line
+	9000 7250 9000 7400
 $EndSCHEMATC

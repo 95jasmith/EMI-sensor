@@ -3,4 +3,5 @@
   (lib (name ECS-3961-400-AU-TR)(type Legacy)(uri "C:/Users/97jsm/Documents/GitHub/EMI-sensor/Building sensor/Designs/KiCAD/ECS-3961-400-AU-TR.lib")(options "")(descr ""))
   (lib (name EMI_sensor_control_Rev2.0-rescue)(type Legacy)(uri ${KIPRJMOD}/EMI_sensor_control_Rev2.0-rescue.lib)(options "")(descr ""))
   (lib (name FinalProject-cache)(type Legacy)(uri C:/Users/97jsm/Documents/GitHub/Personal/ECE502/FinalProject/FinalProject-cache.lib)(options "")(descr ""))
+  (lib (name 2020-02-06_20-31-41)(type Legacy)(uri "C:/Users/97jsm/Documents/GitHub/EMI-sensor/Building sensor/Designs/KiCAD/2020-02-06_20-31-41/2020-02-06_20-31-41.lib")(options "")(descr ""))
 )
