@@ -1,4 +1,4 @@
-16693575022243555
+-9206689194090762011
 1437566-4
 SW_1437566-4
 
@@ -47467,124 +47467,19 @@ EMI Filter
 19
 4
 footprints
-AD7763BSVZ
+ADS127L01IPBSR
 
 
 0
-65
-65
-footprints
-AD8021ARZ
+32
+32
+footprints1
+ADS127L01IPBSR
 
 
 0
-8
-8
-footprints
-ADA4096-2ARMZ
-
-
-0
-8
-8
-footprints
-ADR431ARMZ
-
-
-0
-8
-8
-footprints
-ADR434ARZ
-
-
-0
-8
-8
-footprints
-AISC-1008-1R2G-T
-
-
-0
-2
-2
-footprints
-BUF634U
-
-
-0
-8
-8
-footprints
-DMC3025LSD-13
-
-
-0
-8
-8
-footprints
-DMP6180SK3-13
-
-
-0
-3
-3
-footprints
-ICE40LP8K-CM81
-
-
-0
-81
-81
-footprints
-INA163UA&slash_2K5
-
-
-0
-14
-14
-footprints
-LMR23610ADDAR
-
-
-0
-8
-8
-footprints
-REF2041AIDDCT
-
-
-0
-5
-5
-footprints
-SD2114S040S8R0
-
-
-0
-2
-2
-footprints
-SRN6045-6R8Y
-
-
-0
-2
-2
-footprints
-ST3232BDR
-
-
-0
-16
-16
-footprints
-STN4NF03L
-
-
-0
-3
-3
+32
+32
 Fuse
 Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
 Fuseholder ATO Blade littelfuse Pudenz 2 Pin
@@ -51393,6 +51288,13 @@ solder jumper open
 0
 5
 3
+KiCAD
+SOP65P490X110-8N
+
+
+0
+8
+8
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -61558,6 +61460,13 @@ SOIC SO
 28
 28
 Package_SO
+SOIC-44
+
+
+0
+46
+45
+Package_SO
 SOIJ-8_5.3x5.3mm_P1.27mm
 8-Lead Plastic Small Outline (SM) - Medium, 5.28 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
 SOIC 1.27
@@ -68054,6 +67963,13 @@ Mini-Circuits PL-247 HZ1198
 40
 6
 RF_Mini-Circuits
+Mini-Circuits_MC1631-1
+
+
+0
+9
+9
+RF_Mini-Circuits
 Mini-Circuits_MMM168
 Footprint for Mini-Circuits case MMM168 (https://ww2.minicircuits.com/case_style/MMM168.pdf)
 Mini-Circuits MMM168
@@ -68641,6 +68557,41 @@ rotary encoder
 0
 5
 4
+SamacSys_Parts
+47571-0001
+47571-0001
+Connector
+0
+13
+13
+SamacSys_Parts
+EG1215AA
+EG1215AA-1
+Switch
+0
+7
+7
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+QFP50P700X700X120-32N
+PBS (S-PQFP-G32)
+Integrated Circuit
+0
+32
+32
+SamacSys_Parts
+SOIC127P600X175-16N
+ST SO-16
+Integrated Circuit
+0
+16
+16
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
