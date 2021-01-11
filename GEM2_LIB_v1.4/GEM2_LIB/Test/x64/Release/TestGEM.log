@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  anyoption.cpp
+  Gemmngr.cpp
+  Test.cpp
+  Generating code
+  5 of 449 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  TestGEM.vcxproj -> C:\ALLFF\PROJECTS\GEMV1_GEM2.DLL.1.4\GEM_DLL\_COMP\x64\Release\TestGEM.exe

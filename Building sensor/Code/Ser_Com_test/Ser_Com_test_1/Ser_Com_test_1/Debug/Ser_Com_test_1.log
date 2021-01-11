@@ -1,0 +1,5 @@
+﻿  Serial.cpp
+C:\Users\95jas\Downloads\serial_src\Serial.cpp(3,10): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  Ser_Com_test_1.cpp
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Ser_Com_test\Ser_Com_test_1\Ser_Com_test_1\Ser_Com_test_1.cpp(4,10): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+  Generating Code...

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>Gemmngr.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Gemmngr::GEM_GetSystem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Gemmngr::{ctor}</FUNCTION>
+    <DECORATED>??0Gemmngr@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Gemmngr::GEM_GetSystem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>Gemmngr.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Gemmngr::GEM_SetSystem' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Gemmngr::{ctor}</FUNCTION>
+    <DECORATED>??0Gemmngr@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Gemmngr::GEM_SetSystem</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

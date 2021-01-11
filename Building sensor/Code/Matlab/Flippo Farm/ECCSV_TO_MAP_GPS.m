@@ -120,6 +120,10 @@ for j = 1:length(ECindex)
     f = figure(j);
     hold on
     contourf(X,Y,ECGridData) % plot of data
+    set(gca,'ColorScale','log')
+    set(gca,'XTickLabel',[],'Layer','top');
+    set(gca,'YTickLabel',[],'Layer','top');
+    caxis([1 100])
     p = plot(xCoordZero, yCoordZero, 'm' ); % plot of path surveyed
     if markerPoints ~= 0 % if there where any marks to plot
         scatter(markerPoints(:,1), markerPoints(:,2),'filled', 'r');

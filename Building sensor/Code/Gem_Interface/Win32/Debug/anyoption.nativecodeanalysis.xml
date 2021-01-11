@@ -1,0 +1,1953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>191</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'usage':  the writable size is 'size' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>AnyOption::alloc</FUNCTION>
+    <DECORATED>?alloc@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>146</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'mem_allocated' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;max_options' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'usage==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;max_usage_lines')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>190</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;max_usage_lines')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>191</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'usage', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'optchartype':  the writable size is '((max_char_options+1))*sizeof(long)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>AnyOption::alloc</FUNCTION>
+    <DECORATED>?alloc@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>146</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'mem_allocated' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;max_options' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;max_char_options')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;max_char_options')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'optchartype', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>178</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'optionchars':  the writable size is '((max_char_options+1))*sizeof(char)' bytes, but '2' bytes might be written.</DESCRIPTION>
+    <FUNCTION>AnyOption::alloc</FUNCTION>
+    <DECORATED>?alloc@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>146</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'mem_allocated' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;max_options' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;max_char_options')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;max_char_options')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'optionchars', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>180</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'optcharindex':  the writable size is '((max_char_options+1))*sizeof(long)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>AnyOption::alloc</FUNCTION>
+    <DECORATED>?alloc@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>146</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>148</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>149</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>151</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'mem_allocated' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;max_options' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;max_char_options')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>38</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;max_char_options')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'optcharindex', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>199</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'options', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>AnyOption::doubleOptStorage</FUNCTION>
+    <DECORATED>?doubleOptStorage@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>197</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>201</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'optiontype', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>AnyOption::doubleOptStorage</FUNCTION>
+    <DECORATED>?doubleOptStorage@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>197</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>203</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'optionindex', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>AnyOption::doubleOptStorage</FUNCTION>
+    <DECORATED>?doubleOptStorage@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>197</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'optionchars', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>AnyOption::doubleCharStorage</FUNCTION>
+    <DECORATED>?doubleCharStorage@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>218</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>222</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'optchartype', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>AnyOption::doubleCharStorage</FUNCTION>
+    <DECORATED>?doubleCharStorage@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>218</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>224</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'optcharindex', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>AnyOption::doubleCharStorage</FUNCTION>
+    <DECORATED>?doubleCharStorage@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>218</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>243</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>'realloc' might return null pointer: assigning null pointer to 'usage', which is passed as an argument to 'realloc', will cause the original memory block to be leaked.</DESCRIPTION>
+    <FUNCTION>AnyOption::doubleUsageStorage</FUNCTION>
+    <DECORATED>?doubleUsageStorage@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>241</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>695</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'tmp'. </DESCRIPTION>
+    <FUNCTION>AnyOption::parseGNU</FUNCTION>
+    <DECORATED>?parseGNU@AnyOption@@AAEJPAD@Z</DECORATED>
+    <FUNCLINE>682</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>684</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>686</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>686</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>687</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>688</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>689</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>686</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>686</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>687</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>688</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>689</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>686</LINE>
+        <COLUMN>48</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>686</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>692</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>693</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'tmp' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>694</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>694</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;split_at')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>695</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'tmp' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>771</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'values':  the writable size is 'size' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>AnyOption::valueStoreOK</FUNCTION>
+    <DECORATED>?valueStoreOK@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>763</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>765</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>766</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!set')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>767</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'g_value_counter&gt;0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>768</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>769</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>770</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>770</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;g_value_counter')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>771</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>770</LINE>
+        <COLUMN>44</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>770</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;g_value_counter')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>771</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'values', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>771</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'values'. </DESCRIPTION>
+    <FUNCTION>AnyOption::valueStoreOK</FUNCTION>
+    <DECORATED>?valueStoreOK@AnyOption@@AAE_NXZ</DECORATED>
+    <FUNCLINE>763</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>765</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>766</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>767</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>768</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>769</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'values' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>770</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>770</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;g_value_counter')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>771</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'values' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>853</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'values[optionindex[i]]' could be '0':  this does not adhere to the specification for the function 'strcpy_s'. </DESCRIPTION>
+    <FUNCTION>AnyOption::setValue</FUNCTION>
+    <DECORATED>?setValue@AnyOption@@AAE_NPBDPAD@Z</DECORATED>
+    <FUNCLINE>846</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>848</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>850</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>850</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;option_counter')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>851</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h:100)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>851</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'strcmp(options[i], option)==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>852</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>853</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'strcpy_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h:28)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>853</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'values[optionindex[i]]' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy_s'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>868</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'values[optionindex[i]]' could be '0':  this does not adhere to the specification for the function 'strcpy_s'. </DESCRIPTION>
+    <FUNCTION>AnyOption::setFlagOn</FUNCTION>
+    <DECORATED>?setFlagOn@AnyOption@@AAE_NPBD@Z</DECORATED>
+    <FUNCLINE>861</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>863</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>865</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>865</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;option_counter')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>866</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Input to 'strcmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h:100)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>866</LINE>
+        <COLUMN>49</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'strcmp(options[i], option)==0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>867</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>868</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'strcpy_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h:28)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>868</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'values[optionindex[i]]' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy_s'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>883</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'values[optcharindex[i]]' could be '0':  this does not adhere to the specification for the function 'strcpy_s'. </DESCRIPTION>
+    <FUNCTION>AnyOption::setValue</FUNCTION>
+    <DECORATED>?setValue@AnyOption@@AAE_NDPAD@Z</DECORATED>
+    <FUNCLINE>876</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>878</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>880</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>880</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;optchar_counter')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>881</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'optionchars[i]==option')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>882</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>883</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'strcpy_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h:28)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>883</LINE>
+        <COLUMN>32</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'values[optcharindex[i]]' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy_s'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>898</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'values[optcharindex[i]]' could be '0':  this does not adhere to the specification for the function 'strcpy_s'. </DESCRIPTION>
+    <FUNCTION>AnyOption::setFlagOn</FUNCTION>
+    <DECORATED>?setFlagOn@AnyOption@@AAE_ND@Z</DECORATED>
+    <FUNCLINE>891</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>893</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>895</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>895</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;optchar_counter')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>896</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'optionchars[i]==option')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>897</LINE>
+        <COLUMN>50</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>898</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'strcpy_s' (declared at c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h:28)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>898</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'values[optcharindex[i]]' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy_s'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>1031</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'pline':  the writable size is '((length+1))*sizeof(char)' bytes, but 'length' bytes might be written.</DESCRIPTION>
+    <FUNCTION>AnyOption::processLine</FUNCTION>
+    <DECORATED>?processLine@AnyOption@@AAEXPADJ@Z</DECORATED>
+    <FUNCLINE>1025</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1027</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1028</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pline' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1030</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'length' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1031</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'pline', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>1031</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'pline'. </DESCRIPTION>
+    <FUNCTION>AnyOption::processLine</FUNCTION>
+    <DECORATED>?processLine@AnyOption@@AAEXPADJ@Z</DECORATED>
+    <FUNCLINE>1025</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1027</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1028</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pline' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1031</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pline' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+      <FILENAME>anyoption.cpp</FILENAME>
+      <LINE>1033</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'cursor'. See line 1031 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>AnyOption::processLine</FUNCTION>
+    <DECORATED>?processLine@AnyOption@@AAEXPADJ@Z</DECORATED>
+    <FUNCLINE>1025</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1027</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1028</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pline' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1031</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1032</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'cursor' receives the value of 'pline' (which may be NULL)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1033</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Interface\</FILEPATH>
+        <FILENAME>anyoption.cpp</FILENAME>
+        <LINE>1033</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'cursor' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

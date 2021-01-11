@@ -1,0 +1,24 @@
+﻿  Emisor.cpp
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Emisor.cpp(113,47): error C2664: 'HMODULE LoadLibraryW(LPCWSTR)': cannot convert argument 1 from 'char [260]' to 'LPCWSTR'
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Emisor.cpp(113,40): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\libloaderapi.h(671,1): message : see declaration of 'LoadLibraryW'
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Emisor.cpp(112,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Emisor.cpp(211,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Gemmngr.cpp
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gemmngr.cpp(104,39): error C2664: 'HMODULE LoadLibraryW(LPCWSTR)': cannot convert argument 1 from 'char [260]' to 'LPCWSTR'
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gemmngr.cpp(104,32): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\libloaderapi.h(671,1): message : see declaration of 'LoadLibraryW'
+  Source.cpp
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\Source.cpp(45,28): error C2664: 'FLOG::FLOG(const FLOG &)': cannot convert argument 1 from 'const char [15]' to 'char *'
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\Source.cpp(45,11): message : Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\FLog.h(12,2): message : see declaration of 'FLOG::FLOG'
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\Source.cpp(133,44): error C2664: 'HANDLE FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW)': cannot convert argument 1 from 'char [260]' to 'LPCWSTR'
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\Source.cpp(133,30): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\fileapi.h(241,1): message : see declaration of 'FindFirstFileW'
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\Source.cpp(146,43): error C2664: 'int sscanf(const char *const ,const char *const ,...)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *const '
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\Source.cpp(146,20): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263,37): message : see declaration of 'sscanf'
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\Source.cpp(153,43): error C2664: 'int sscanf(const char *const ,const char *const ,...)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *const '
+C:\Users\95jas\Documents\GitHub\EMI-sensor\Building sensor\Code\Gem_Test\Gem_Test\Gem_Test\Source.cpp(153,20): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(2263,37): message : see declaration of 'sscanf'
+  Generating Code...
